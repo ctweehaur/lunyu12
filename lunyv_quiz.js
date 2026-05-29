@@ -229,7 +229,6 @@ const quizQuestions = {
         {
             id: 1,
             text: "文中“吾日三省吾身”的“日”字，在句子中作为名词作状语，以下分析最准确的是哪一项？",
-            py: "wén zhōng wú rì sān xǐng wú shēn de rì zì zài jù zi zhōng zuò wéi míng cí zuò zhuàng yǔ yǐ xià fēn xī zuì zhǔn què de ... 项",
             py: "wén zhōng wú rì sān xǐng wú shēn de rì zì zài jù zi zhōng zuò wéi míng cí zuò zhuàng yǔ yǐ xià fēn xī zuì zhǔn què de shì nǎ yī xiàng",
             en: "The character '日' acts as a noun modifying a verb. Which analysis of its function is the most precise?",
             options: [
@@ -279,7 +278,6 @@ const quizQuestions = {
             options: [
                 {
                     text: "指 尽心竭力 / 强调 对 别人 交代 托付 的 事情 毫无 保留 负责 到底",
-                    py: "zhǐ jìn xīn jié lì qiáng diào duì bié rén jiāo dài tuō fù de ... 到底",
                     py: "zhǐ jìn xīn jié lì qiáng diào duì bié rén jiāo dài tuō fù de shì qing háo wú bǎo liú fù zé dào dǐ",
                     en: "Doing one's utmost / Dedicating oneself fully to tasks entrusted by others.",
                     correct: true,
@@ -363,7 +361,6 @@ const quizQuestions = {
         {
             id: 4,
             text: "综合全章，分析曾子“吾日三省吾身”这种高频次的内心“扫描”对于修身起到了什么关键作用？",
-            py: "zōng hé quán zhāng fēn xī zēng zǐ wéi rú hé gāo pín cì de nèi xīn sǎo miáo duì yú xiū shēn qǐ dào le shén me guān jiàn zuò yòng",
             py: "zōng hé quán zhāng fēn xī zēng zǐ wú rì sān xǐng wú shēn zhè zhǒng gāo pín cì de nèi xīn sǎo miáo duì yú xiū shēn qǐ dào le shén me guān jiàn zuò yòng",
             en: "Analyze Zengzi's daily 'tripartite reflection' scan. What critical function does this continuous introspection play in self-cultivation?",
             options: [
