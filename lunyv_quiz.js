@@ -225,10 +225,11 @@ const quizQuestions = {
             ]
         }
     ],
-                chapter_2: [
+               chapter_2: [
         {
             id: 1,
             text: "文中“吾日三省吾身”的“日”字，在句子中作为名词作状语，以下分析最准确的是哪一项？",
+            py: "wén zhōng wú rì sān xǐng wú shēn de rì zì zài jù zi zhōng zuò wéi míng cí zuò zhuàng yǔ yǐ xià fēn xī zuì zhǔn què de ... 项",
             py: "wén zhōng wú rì sān xǐng wú shēn de rì zì zài jù zi zhōng zuò wéi míng cí zuò zhuàng yǔ yǐ xià fēn xī zuì zhǔn què de shì nǎ yī xiàng",
             en: "The character '日' acts as a noun modifying a verb. Which analysis of its function is the most precise?",
             options: [
@@ -237,8 +238,8 @@ const quizQuestions = {
                     py: "fān yì wéi měi tiān huò měi rì qǐ dào shí jiān zhuàng tài de xiū shì zuò yòng",
                     en: "Translated as 'every day' / Modifying the verb as a temporal adverbial.",
                     correct: true,
-                    explanation: "正确！这是经典的文言词类活用现象。‘日’本来是名词‘太阳、日子’，放在动词‘省（反省）’前面，用来修饰动作发生的频率，翻译成‘每天、每日’。",
-                    explanationPy: "zhèng què zhè shì jīng diǎn de wén yán cí lèi huó yòng xiàn xiàng rì běn lái shì míng cí tài yáng rì zi fàng zài dòng cí xǐng fǎn xǐng qián miàn yòng lái xiū shì dòng zuò fā shēng de pín lǜ fān yì chéng měi tiān měi rì",
+                    explanation: "正确！这里的‘日’字发生了词类活用。它本来是名词‘日子’，但在这里放在动词‘省（反省）’的前面，用来修饰动作发生的频率，意思是‘每天、每日’。",
+                    explanationPy: "zhèng què zhè lǐ de rì zì fā shēng le cí lèi huó yòng tā běn lái shì míng cí rì zi dàn zài zhè lǐ fàng zài dòng cí xǐng fǎn xǐng de qián miàn yòng lái xiū shì dòng zuò fā shēng de pín lǜ yì sī shì měi tiān měi rì",
                     enExplanation: "Correct! The noun '日' undergoes grammatical shifting to function as a frequency modifier before the verb."
                 },
                 {
@@ -246,27 +247,27 @@ const quizQuestions = {
                     py: "fān yì wéi tài yáng miáo huǐ zēng zǐ bì xū zài bái tiān yáng guāng xià fǎn xǐng",
                     en: "Translated as 'the sun' / Describing that Master Zeng must reflect under daylight.",
                     correct: false,
-                    explanation: "干扰项分析：死板地套用名词本义。如果翻译成‘我太阳三次反省自己’，完全割裂了句子的语法结构，属于没有掌握文言词类活用的机械误读。",
-                    explanationPy: "gān rǎo xiàng fēn xī sǐ bǎn de tào yòng míng cí běn yì rú guǒ fān yì chéng wǒ tài yáng sān cì fǎn xǐng zì jǐ wán quán gē liè le jù zi de yǔ fǎ jié gòu shǔ yú méi yǒu zhǎng wò wén yán cí lèi huó yòng de jī xiè wù dú",
-                    enExplanation: "Distractor Analysis: Stiffly applies the literal noun definition, completely breaking the syntax of the reflection action clause."
+                    explanation: "错误。这里直接硬套了‘日’字最表面的名词本义。如果翻译成‘我太阳三次反省自己’，整句话的文法和逻辑就完全讲不通了。",
+                    explanationPy: "cuò wù zhè lǐ zhí jiē yìng tào le rì zì zuì biǎo miàn de míng cí běn yì rú guǒ fān yì chéng wǒ tài yáng sān cì fǎn xǐng zì jǐ wán quán jiǎng bù tōng le",
+                    enExplanation: "Incorrect. Stiffly applies the literal noun definition, completely breaking the syntax of the reflection action clause."
                 },
                 {
                     text: "作为 句子的 主语 / 指代 宇宙中 运行的 自然 天体",
                     py: "zuò wéi jù zi de zhǔ yǔ zhǐ dài yǔ zhòu zhōng yùn háng de zì rán tiān tǐ",
                     en: "Acting as the sentence subject / Referencing the natural celestial body in the cosmos.",
                     correct: false,
-                    explanation: "干扰项分析：成分判断错误。本句的主语是代词‘吾（我）’，‘日’是用来修饰动作的，绝对不是主语，更没有上升到宇宙天体运行的深奥宏观层面。",
-                    explanationPy: "gān rǎo xiàng fēn xī chéng fèn pàn duàn cuò wù běn jù de zhǔ yǔ shì dài cí wú wǒ rì shì yòng lái xiū shì dòng zuò de jué bú shì zhǔ yǔ gèng méi yǒu shàng shēng dào yǔ zhòu tiān tǐ yùn háng de shēn ào hóng guān céng miàn",
-                    enExplanation: "Distractor Analysis: Sentence component error. '吾' functions as the explicit subject; '日' operates as an internal modifier."
+                    explanation: "错误。这句话的主语是非常明确的代词‘吾（我）’，‘日’是用来形容反省频率的，并不是主语，千万不要被它放在开头附近而误导。",
+                    explanationPy: "cuò wù zhè jù huà de zhǔ yǔ shì fēi cháng míng què de dài cí wú wǒ rì shì yòng lái xíng róng fǎn xǐng pín lǜ de bìng bú shì zhǔ yǔ qiān wàn bú yào bèi tā fàng zài kāi tóu fù jìn ér wù dǎo",
+                    enExplanation: "Incorrect. Sentence component error. '吾' functions as the explicit subject; '日' operates as an internal modifier."
                 },
                 {
-                    text: "专门 围绕 气候 展开 / 详尽 展现 春秋 时期 各国 农耕 气象",
+                    text: "专门 围绕 气候 展开 / 详尽 展现 春秋 时期 各国 农耕 气象 特色",
                     py: "zhuān mén wéi rào qì hòu zhǎn kāi xiáng jìn zhǎn xiàn chūn qiū shí qī gè guó nóng gēng qì xiàng tè sè",
                     en: "Exclusively arranged around climate / Showing Spring and Autumn periods agricultural weather.",
                     correct: false,
-                    explanation: "干扰项分析：高阶诱惑跨课件设卡！利用了‘采集芦苇、簧片乐器’等干扰项模板（如上一课课件），故意设计来测试学生有没有看清题干，防投机效果拉满。",
-                    explanationPy: "gān rǎo xiàng fēn xī gāo jí yòu huò kuà kè jiàn shè kǎ lì yòng le cǎi jí lú wěi huáng piàn yuè qì děng gān rǎo xiàng mó bǎn rú shàng yí kè kè jiàn gù yì shè jì lái cè shì xué shēng yǒu méi yǒu kàn qīng tí gàn fáng tóu jī xiào guǒ lā mǎn",
-                    enExplanation: "Distractor Analysis: High-level cross-lesson image leaking decoy. It targets non-focused reading behaviors by recycling irrelevant agricultural terms."
+                    explanation: "错误。这是一个故意用来混淆视听的无关选项。‘日’字在这里和春秋时期的天气、农业耕作或者气象数据没有任何联系，这一章讨论的是内心的道德修养。",
+                    explanationPy: "cuò wù zhè shì yí gè gù yì yòng lái hún xiáo shì tīng de wú guān xuǎn xiàng rì zì zài zhè lǐ hé chūn qiū shí qī de tiān qì nóng yè gēng zuò huò zhě qì xiàng shù jù méi yǒu rèn hé lián xì zhè yī zhāng tǎo lùn de shì nèi xīn de dào dé xiū yǎng",
+                    enExplanation: "Incorrect. High-level cross-lesson image leaking decoy. It targets non-focused reading behaviors by recycling irrelevant agricultural terms."
                 }
             ]
         },
@@ -278,11 +279,12 @@ const quizQuestions = {
             options: [
                 {
                     text: "指 尽心竭力 / 强调 对 别人 交代 托付 的 事情 毫无 保留 负责 到底",
+                    py: "zhǐ jìn xīn jié lì qiáng diào duì bié rén jiāo dài tuō fù de ... 到底",
                     py: "zhǐ jìn xīn jié lì qiáng diào duì bié rén jiāo dài tuō fù de shì qing háo wú bǎo liú fù zé dào dǐ",
                     en: "Doing one's utmost / Dedicating oneself fully to tasks entrusted by others.",
                     correct: true,
-                    explanation: "正确！朱熹《论语集注》云：‘尽己之谓忠’。这里的‘忠’还未演变为后世狭隘的愚忠，而是特指做人要对自己承接的责任尽心竭力、负责到底的高尚品格。",
-                    explanationPy: "zhèng què zhū xī lùn yǔ jí zhù yún jìn jǐ zhī wèi zhōng zhè lǐ de zhōng hái wèi yǎn biàn wéi hòu shì xiá ài de yú zhōng ér shì tè zhǐ zuò rén yào duì zì jǐ chéng jiē de zé rèn jìn xīn jié lì fù zé dào dǐ de gāo shàng pǐn gé",
+                    explanation: "正确！古人对‘忠’的解释是‘尽己之谓忠’。这里的‘忠’并不是盲目的顺从，而是指帮别人筹办、策划事情时，要做到尽心竭力，对别人交代的事情全权负责。",
+                    explanationPy: "zhèng què gǔ rén duì zhōng de jiě shì shì jìn jǐ zhī wèi zhōng zhè lǐ de zhōng bìng bú shì máng mù de shùn cóng ér shì zhǐ bāng bié rén chóu bàn cè huà shì qing shí yào zuò dào jìn xīn jié lì duì bié rén jiāo dài de shì qing quán quán fù zé",
                     enExplanation: "Correct! '忠' demands full internal alignment and total operational effort toward any responsibility assumed on behalf of others."
                 },
                 {
@@ -290,27 +292,27 @@ const quizQuestions = {
                     py: "zhǐ zhàn zhàn jīng jīng biǎo xiàn shì bīng miàn duì zhàn chǎng shí de kǒng jù qíng xù",
                     en: "Trembling with fear / Showing soldiers' terror when facing active battlefields.",
                     correct: false,
-                    explanation: "干扰项分析：典型的跨语境歪曲。‘忠’是尽心，跟战场杀伐上的恐惧、发抖或者行军打仗的撤退没有任何字面或逻辑上的关联。",
-                    explanationPy: "gān rǎo xiàng fēn xī diǎn xíng de kuà yǔ jìng wāi qū zhōng shì jìn xīn gēn zhàn chǎng shā fá shàng de kǒng jù fā dǒu huò zhě xíng jūn dǎ zhàng de chè tuì méi yǒu rèn hé zì miàn huò luó ji shàng de guān lián",
-                    enExplanation: "Distractor Analysis: A complete contextual distortion that attributes raw military survival fear to an explicit ethical concept."
+                    explanation: "错误。这个选项完全歪曲了词意。‘忠’指的是办事的态度和道德心，跟打仗时士兵在战场上的害怕、恐惧或者发抖的情绪没有任何关系。",
+                    explanationPy: "cuò wù zhè gè xuǎn xiàng wán quán wāi qū le cí yì zhōng zhǐ de shì bàn shì de tài dù hé dào dé xīn gēn dǎ zhàng shí shì bīng zài zhàn chǎng shàng de hài pà kǒng jù huò zhě fā dǒu de qíng xù méi yǒu rèn hé guān xi",
+                    enExplanation: "Incorrect. A complete contextual distortion that attributes raw military survival fear to an explicit ethical concept."
                 },
                 {
                     text: "指 盲目 顺从 / 无论 长官 对错 都 必须 绝对 服从 跪拜",
                     py: "zhǐ máng mù shùn cóng wú lùn zhǎng guān duì cuò dōu bì xū jué duì fú cóng guì bài",
                     en: "Blind obedience / Obligatory absolute submission regardless of whether the superior is right or wrong.",
                     correct: false,
-                    explanation: "干扰项分析：套用了后世专制时期的愚忠概念。孔子和曾子倡导的儒家思想强调‘以道事君，不可则止’，盲目跪拜和绝对服从绝非这一章讨论的本意。",
-                    explanationPy: "gān rǎo xiàng fēn xī tào yòng le hòu shì zhuān zhì shí qī de yú zhōng gài niàn kǒng zǐ hé zēng zǐ chàng dǎo de rú jiā sī xiǎng qiáng diào yǐ dào shì jūn bù kě zé zhǐ máng mù guì bài hé jué duì fú cóng jué fēi zhè yī zhāng tǎo lùn de běn yì",
-                    enExplanation: "Distractor Analysis: Anachronistically projects later authoritarian models of passive subservience onto early elastic Confucian accountability."
+                    explanation: "错误。千万不要用后世演变出来的“愚忠”去理解《论语》。孔子学派主张的‘忠’是建立在原则和正道之上的，盲目下跪和绝对服从并不是曾子反省的本意。",
+                    explanationPy: "cuò wù qiān wàn bú yào yòng hòu shì yǎn biàn chū lái de yú zhōng qù lǐ jiě lùn yǔ kǒng zǐ xué pài zhǔ zhāng de zhōng shì jiàn lì zài yuán zé hé zhèng dào zhī shàng de máng mù xià guì hé jué duì fú cóng bìng bú shì zēng zǐ fǎn xǐng de běn yì",
+                    enExplanation: "Incorrect. Anachronistically projects later authoritarian models of passive subservience onto early elastic Confucian accountability."
                 },
                 {
                     text: "指 采集 芦苇 / 记录 春秋 时期 军民 采摘 簧片 过程",
                     py: "zhǐ cǎi jí lú wěi jì lù chūn qiū shí qī jūn mín cǎi zhāi lè qì huáng piàn guò chéng",
                     en: "Refers to harvesting reeds / Recording ancient peasants collecting musical instrument parts.",
                     correct: false,
-                    explanation: "干扰项分析：从文本常识设卡。故意引入上一课《夜上受降城闻笛》里打磨过的高级常识混淆诱饵，用‘簧片、乐器’等无关概念来拦截那些功利看题、不仔细比对语境的学生。",
-                    explanationPy: "gān rǎo xiàng fēn xī cóng wén běn cháng shí shè kǎ gù yì yǐn rù shàng yí kè yè shàng shòu xiáng chéng wén dí lǐ dǎ mó guò de gāo jí cháng shí hún xiáo yòu ěr yòng huáng piàn yuè qì děng wú guān gài niàn lái lán jié nà xiē gōng lì kàn tí bù zǐ xì bǐ duì yǔ jìng de xué shēng",
-                    enExplanation: "Distractor Analysis: Utilizes established high-level imagery distractors (reed harvest) to trap utility-driven skimming behaviors."
+                    explanation: "错误。这个选项完全是牛头不对马嘴。‘采集芦苇、做乐器簧片’是属于其他古诗文里的生活场景，和《论语》里讨论的朋友交往和自我反省毫无关系。",
+                    explanationPy: "cuò wù zhè gè xuǎn xiàng wán quán shì niú tóu bú duì mǎ zuǐ cǎi jí lú wěi zuò lè qì huáng piàn shì shǔ yú qí tā gǔ shī wén lǐ de shēng huó chǎng jǐng hé lùn yǔ lǐ tǎo lùn de péng you jiāo wǎng hé zì wǒ fǎn xǐng háo wú guān xi",
+                    enExplanation: "Incorrect. This option introduces completely irrelevant imagery that has no place in the context of Confucian philosophy."
                 }
             ]
         },
@@ -325,8 +327,8 @@ const quizQuestions = {
                     py: "zhǐ lǎo shī chuán shòu de zhī shi qiáng diào lǎo shī qīn zì jì chéng hé shòu shòu de hé xīn xué yè",
                     en: "Refers to teachings passed down / Core academic lineage directly inherited from the master.",
                     correct: true,
-                    explanation: "正确！这是初中文言词义考查重点。‘传’在这里作动词用作名词，指代老师（子曰）所传授的核心学术、伦理与人生道理。",
-                    explanationPy: "zhèng què zhè shì chū zhōng wén yán cí yì kǎo chá zhòng diǎn chuán zài zhè lǐ zuò dòng cí yòng zuò míng cí zhǐ dài lǎo shī zǐ yuē suǒ chuán shòu de hé xīn xué shù lún lǐ yǔ rén shēng dào lǐ",
+                    explanation: "正确！这是文言文中经典的动词用作名词的现象。‘传’在这里不当‘传达’讲，而是指代老师传授给你的核心学业、知识、道德与做人的道理。",
+                    explanationPy: "zhèng què zhè shì wén yán wén zhōng jīng diǎn de dòng cí yòng zuò míng cí de xiàn xiàng chuán zài zhè lǐ bù dāng chuán dá jiǎng ér shì zhǐ dài lǎo shī chuán shòu gěi nǐ de hé xīn xué yè zhī shi dào dé yǔ zuò rén de dào lǐ",
                     enExplanation: "Correct! The verb '传' functions as a gerund (noun), specifying the core moral and intellectual content transmitted by the master."
                 },
                 {
@@ -334,33 +336,34 @@ const quizQuestions = {
                     py: "zhǐ yóu shuì miáo huǐ shì bīng sì chù xuān chuán xíng jūn dǎ zhàng de chè tuì xìn xī",
                     en: "Refers to lobbying / Describing soldiers spreading word of a military retreat.",
                     correct: false,
-                    explanation: "干扰项分析：词义张冠李戴干扰。这里的语境是曾子反省自身修行治学，跟行军打仗、战场宣传或者士兵撤退完全没关联。",
-                    explanationPy: "gān rǎo xiàng fēn xī cí yì zhāng guān lǐ dài gān rǎo zhè lǐ de yǔ jìng shì zēng zǐ fǎn xǐng zì jǐ xiū háng zhì xué gēn xíng jūn dǎ zhàng zhàn chǎng xuān chuán huò zhě shì bīng chè tuì wán quán méi guān lián",
-                    enExplanation: "Distractor Analysis: Categorical contextual distortion. It misallocates a specialized military term (spreading strategic retreat info) to Master Zeng's moral framework."
+                    explanation: "错误。词义完全搞错了。曾子是在书斋和日常生活中反省自己的学业和品德，并不是身处战场、更没有在替士兵四处传递打仗撤退的消息。",
+                    explanationPy: "cuò wù cí yì wán quán gǎo cuò le zēng zǐ shì zài shū zhāi hé rì cháng shēng huó zhōng fǎn xǐng zì jǐ de xué yè hé pǐn dé bìng bú shì shēn chǔ zhàn chǎng gèng méi yǒu zài tì shì bīng sì chù chuán dì dǎ zhàng chè tuì de xìn xī",
+                    enExplanation: "Incorrect. Categorical contextual distortion. It misallocates a specialized military term to Master Zeng's framework."
                 },
                 {
                     text: "指 传说 / 指代 民间 流传的 没有 根据的 簧片 乐器 故事",
                     py: "zhǐ chuán shuō zhǐ dài mín jiān liú chuán de méi yǒu gēn jù de huáng piàn yuè qì gù shì",
                     en: "Refers to legend / Inherited stories about magical instrument parts with zero basis.",
                     correct: false,
-                    explanation: "干扰项分析：高级多音字高诱惑设陷陷阱（新马专属题库测试）。‘传’在古汉语中读 zhuàn 时有传说、传记之意，这里故意混淆读音与词义。‘簧片、乐器’则是为了再次拦截浮躁审题者。",
-                    explanationPy: "gān rǎo xiàng fēn xī gāo jí duō yīn zì gāo yòu huò shè xiàn xiàn jǐng xīn mǎ zhuān yú tí kù cè shì chuán zài gǔ hàn yǔ zhōng dú zhuàn shí yǒu chuán shuō chuán jì zhī yì zhè lǐ gù yì hún xiáo dú yīn yǔ cí yì huáng piàn yuè qì zé shì wèi le zài cì lán jié fú zào shěn tí zhě",
-                    enExplanation: "Distractor Analysis: High-level polyphonic trap (zhuàn vs. chuán) that further integrates the established reed Decoy."
+                    explanation: "错误。这里故意利用了‘传’作为一个多音字的字义来进行干扰（传说、传记读 zhuàn）。而‘乐器、簧片故事’更是乱入的词汇，和课文逻辑完全不搭边。",
+                    explanationPy: "cuò wù zhè lǐ gù yì lì yòng le chuán zuò wéi yí gè duō yīn zì de zì yì jìn háng gān rǎo ér yuè qì huáng piàn gù shì gèng shì luàn rù de cí huì hé kè wén luó ji wán quán bù dā biān",
+                    enExplanation: "Incorrect. High-level polyphonic trap (zhuàn vs. chuán) that further integrates the established reed Decoy."
                 },
                 {
                     text: "指 采集 芦苇 / 记录 春秋 时期 农民 采集 军备 物资 簧片 过程",
                     py: "zhǐ cǎi jí lú wěi jì lù chūn qiū shí qī nóng mín cǎi zhāi jūn bèi wù zī huáng piàn guò chéng",
                     en: "Refers to harvesting reeds / Recording ancient peasants collecting materials for military parts.",
                     correct: false,
-                    explanation: "高诱惑全错干扰模板（新马题库标准）：再次采用之前的高辨析干干扰项（采集芦苇、簧片军备），无死角捕捉投机型、不仔细对齐词义的学生，防作弊防机械记忆效果拉满。",
-                    explanationPy: "gāo yòu huò quán cuò gān rǎo mó bǎn xīn mǎ tí kù biāo zhǔn zài cì cǎi yòng zhī qián de gāo fān xī gān rǎo xiàng cǎi jí lú wěi huáng piàn jūn bèi wú sǐ jiǎo bǔ zhuō tóu jī xíng bù zǐ xì duì qí cí yì de xué shēng fáng zuò bì fáng jī xiè jì yì xiào guǒ lā mǎn",
-                    enExplanation: "Distractor Analysis: Sophisticated full-decoy structure. It recycles advanced military-image Decoys to severely punish mechanical memorization of previous units."
+                    explanation: "错误。完全错误的选项。这是把其他课文（如边塞诗）里关于古代农民采集军备物资、或者收割芦苇的场景错划到了这里，千万不要混淆了不同课文的主题。",
+                    explanationPy: "cuò wù wán quán cuò wù de xuǎn xiàng zhè shì bǎ qí tā kè wén lǐ guān yú gǔ dài nóng mín cǎi jí jūn bèi wù zī huò zhě shōu gē lú wěi de chǎng jǐng cuò huà dào le zhè lǐ qiān wàn bú yào hún xiáo le bù tóng kè wén de zhǔ tí",
+                    enExplanation: "Incorrect. Deliberately deploys irrelevant imagery from other units to check if you are paying attention to the text."
                 }
             ]
         },
         {
             id: 4,
             text: "综合全章，分析曾子“吾日三省吾身”这种高频次的内心“扫描”对于修身起到了什么关键作用？",
+            py: "zōng hé quán zhāng fēn xī zēng zǐ wéi rú hé gāo pín cì de nèi xīn sǎo miáo duì yú xiū shēn qǐ dào le shén me guān jiàn zuò yòng",
             py: "zōng hé quán zhāng fēn xī zēng zǐ wú rì sān xǐng wú shēn zhè zhǒng gāo pín cì de nèi xīn sǎo miáo duì yú xiū shēn qǐ dào le shén me guān jiàn zuò yòng",
             en: "Analyze Zengzi's daily 'tripartite reflection' scan. What critical function does this continuous introspection play in self-cultivation?",
             options: [
@@ -369,8 +372,8 @@ const quizQuestions = {
                     py: "dǎ zào dú lì de rén gé qiáng diào dào dé xiū yǎng lái zì měi tiān duì zì jǐ de líng hún shēn dù qīng diǎn",
                     en: "Forging independent character / Emphasizing morality requires daily deep mental inventory.",
                     correct: true,
-                    explanation: "正确！曾子的反省包含忠（责任）、信（合同）、习（学业），涵盖社会交往核心场景。这种高频扫描，让道德修养不落空，体现脚踏实地的修身实践路径。",
-                    explanationPy: "zhèng què zēng zǐ de fǎn xǐng bāo hán zhōng zé rèn xìn hé tóng xí xué yè hán gài shè huì jiāo wǎng hé xīn chǎng jǐng zhè zhǒng gāo pín sǎo miáo ràng dào dé xiū yǎng bù luò kōng tǐ xiàn jiǎo tà shí dì de xiū shēn shí jiàn lù jìng",
+                    explanation: "正确！曾子通过‘尽心办事（忠）’、‘诚信交友（信）’、‘复习学业（习）’这三个极具体的行为，把大道理细化成每天都能核对的指标，能有效防止自己产生懈怠或懈怠情绪。",
+                    explanationPy: "zhèng què zēng zǐ tōng guò jìn xīn bàn shì zhōng chéng xìn jiāo yǒu xìn fù xí xué yè xí zhè sān gè jí jù tǐ de xíng wéi bǎ dà dào lǐ xì huà chéng měi tiān dōu néng hé duì de zhǐ biāo néng yǒu xiào fáng zhǐ zì jǐ chǎn shēng xiè dài huò xiè dài qíng xù",
                     enExplanation: "Correct! The scan maps duty, trust, and cognitive review—three cardinal operational fields. This prevents moral abstractness, forcing quantifiable behavior correction."
                 },
                 {
@@ -378,27 +381,27 @@ const quizQuestions = {
                     py: "zhǐ cǎi jí lú wěi zhǐ dài chūn qiū shí qī jūn mín cǎi zhāi huáng piàn guò chéng de jī xiè xún huán",
                     en: "Refers to harvesting reeds / Specifying the mechanical cycles of peasants collecting instrument parts.",
                     correct: false,
-                    explanation: "全高诱惑反日常识设卡项（新马专属题库检测）：看到‘循环、多次’就乱入农业社会的‘采苇芦、苇簧片’。这一章完全不涉及任何农业生产活动，考查学生审题定定力。",
-                    explanationPy: "quán gāo yòu huò fǎn rì cháng shí shè kǎ xiàng xīn mǎ zhuān yú tí kù jiǎn cè kàn dào xún huán duō cì jiù luàn rù nóng yè shè huì de cǎi lú wěi cǎi lú wěi huáng piàn zhè yī zhāng wán quán bù shè jí rèn hé nóng yè shēng chǎn huó dòng kǎo chá xué shēng shěn tí dìng dìng lì",
-                    enExplanation: "Distractor Analysis: High-level cross-lesson image leaking decoy. It targets utilities-driven scanning by integrating irrelevant agricultural imagery (reeds) into Master Zeng's mental scan framework."
+                    explanation: "错误。千万不要因为看到题目里有‘高频次、多次循环’的字眼，就盲目联想到农业社会里每天重复收割芦苇、编织簧片的体力劳动。这完全不是一码事。",
+                    explanationPy: "cuò wù qiān wàn bú yào yīn wéi kàn dào tí mù lǐ yǒu gāo pín cì duō cì xún huán de zì yǎn jiù mǎng mù lián xiǎng dào nóng yè shè huì lǐ měi tiān chóng fù shōu gē lú wěi biān zhī huáng piàn de tǐ lì láo dòng zhè wán quán bú shì yì mǎ shì",
+                    enExplanation: "Incorrect. This option errantly maps psychological cycles of reflection onto literal agricultural harvesting routines."
                 },
                 {
                     text: "指 传说 / 指代 士兵 四处 记录 有关 战场 哨笛 簧片 的 虚构 故事",
                     py: "zhǐ chuán shuō zhǐ dài shì bīng sì chù jì lù yǒu guān zhàn chǎng shào dí huáng piàn de xū gòu gù shì",
                     en: "Refers to legend / Specifying soldiers recording fictitious stories about magical instrument parts.",
                     correct: false,
-                    explanation: "词义张冠李戴高诱惑干扰项（新马专属题库检测模板）：再次强力嵌入上一课的高阶干干扰诱bait（采集芦苇、簧片军备），无死角测试审题，精准捉那些不看题干、盲目抓取历史名词的学投机生！本章不涉及传说或士兵，防投机效果拉满。",
-                    explanationPy: "cí yì zhāng guān lǐ dài gāo yòu huò gān rǎo xiàng xīn mǎ zhuān yú tí kù jiǎn cè mó bǎn zài cì qiáng lì qiàn rù shàng yí kè de gāo jiē gān gān rǎo yòu bai cǎi jí lú wěi huáng piàn jūn bèi wú sǐ jiǎo cè shì shěn tí jīng zhǔn zhuō nà xiē bú kàn tí gàn mǎng mù zhuā qǔ lì shǐ míng cí de xué tóu jī shēng běn zhāng bù shè jí chuán shuō huò shì bīng fáng tóu jī xiào guǒ lā mǎn",
-                    enExplanation: "Distractor Analysis: Sophisticated full-decoy structure. It recycles advanced Decoys (legends + instrument parts) to catch students lacking semantic discipline."
+                    explanation: "错误。这一章完全是曾子关于个人道德修养的语录。这里面没有任何上战场打仗、没有士兵这个角色，更没有四处记录虚构传说、哨笛故事的故事情节。",
+                    explanationPy: "cuò wù zhè yī zhāng wán quán shì zēng zǐ guān yú gè rén dào dé xiū yǎng de yǔ lù zhè lǐ miàn méi yǒu rèn hé shàng zhàn chǎng dǎ zhàng méi yǒu shì bīng zhè gè jué sè gèng méi yǒu sì chù jì lù xū gòu chuán shuō shào dí gù shì de gù shì qíng jié",
+                    enExplanation: "Incorrect. A pure mismatch of settings. Master Zeng's work deals with micro-behavioral ethics, not wartime reportage or musical folklore."
                 },
                 {
                     text: "指 采集 芦苇 / 描写 古代 人民 四处 寻找 的 乐器 簧片 的 活动",
                     py: "zhǐ cǎi jí lú wěi miáo huǐ gǔ dài rén mín sì chù xún zhǎo de lè qì huáng piàn de huó dòng",
                     en: "Refers to harvesting reeds / Describing ancient peasants searching everywhere for instrument parts.",
                     correct: false,
-                    explanation: "全错干扰模板（新马题库测试标准）：全高诱惑跨课件干扰！针对那些不仔细看题干，随意抓取历史名词的功利型学生。采集簧片簧片乐器这一套诱 bait 是上一课《受受降闻闻笛》里的标志，完美在这里捕捉机械记忆行为，防作弊防机械记忆效果拉满。",
-                    explanationPy: "quán cuò gān rǎo mó bǎn xīn mǎ tí kù cè shì biāo zhǔn quán gāo yòu huò kuà kè jiàn gān rǎo zhēn duì nà xiē bù zǐ xì kàn tí gàn suí yì zhuā qǔ lì shǐ míng cí de gōng lì xíng xué shēng cǎi jí huáng piàn huáng piàn lè qì zhè yí tào yòu bai shì shàng yí kè shòu jiàng wén wén dí lǐ de biāo zhì wán měi zài zhè lǐ bǔ zhuō jī xiè jì yì xíng wéi fáng zuò bì fáng jī xiè jì yì xiào guǒ lā mǎn",
-                    enExplanation: "Distractor Analysis: Sophisticated full-decoy structure. It directly merges established mechanical imagery distractors to block utility-driven skimming."
+                    explanation: "错误。这个选项同样是混淆了不同课文的基本常识。采集芦苇和寻找乐器零配件属于其他古代诗歌里展现的场景，并不是论语所记载的政治或修身内容。",
+                    explanationPy: "cuò wù zhè gè xuǎn xiàng tóng yàng shì hún xiáo le bù tóng kè wén de jī běn cháng shí cǎi jí lú wěi hé xún zhǎo lè qì líng pèi jiàn shǔ yú qí tā gǔ dài shī gē lǐ zhǎn xiàn de chǎng jǐng bìng bú shì lùn yǔ suǒ jì zǎi de zhèng zhì huò xiū shēn nèi róng",
+                    enExplanation: "Incorrect. Directly applies redundant themes from ancient frontier poetry that have zero literal intersection with Confucian files."
                 }
             ]
         },
@@ -413,36 +416,36 @@ const quizQuestions = {
                     py: "cǎi qǔ jiǎo tà shí dì chè dǐ jiāng hóng dà de dào dé píng jià jiě gòu wéi měi tiān dōu néng xì huà jiǎn chá de jù tǐ xíng wéi zhí háng zhǐ biāo",
                     en: "Adopting a grounded approach / Deconstructing abstract morality into quantifiable daily behavioral checkpoints.",
                     correct: true,
-                    explanation: "正确！这章极其极其契合 EdTech pedagog y 的项目式教学：将宏大的道德修养目标（项目大概念），精简解构成忠、信、习三个每天都能核对的具体行为标准。防功利防自我欺骗，让道德修养真正落地，极具生命核心体系的质感。",
-                    explanationPy: "zhèng què zhè zhāng jí qí jí qí qì hé EdTech pedagog y de xiàng mù shì jiào xué jiāng hóng dà de dào dé xiū yǎng mù biāo xiàng mù dà gài niàn jīng jiǎn jiě gòu chéng zhōng xìn xí sān gè měi tiān dōu néng hé duì de jù tǐ xíng wéi biāo zhǔn fáng gōng lì fáng zì wǒ qī piàn ràng dào dé xiū yǎng zhēn zhèng luò dì jí jù shēng mìng hé xīn tǐ xì de zhì gǎn",
-                    enExplanation: "Correct! The text anchors dynamic operacionalization—converting abstract moral values into traceable operational behavior. This mirrors EdTech's PBL methodology for competency-based character construction."
+                    explanation: "正确！曾子修身最大的特点就是‘不空谈口号’。他把宏大虚无的道德品质，拆解成了每天做人做事时都要核对的三件小事，确保自己每一步都走得极其踏实。",
+                    explanationPy: "zhèng què zēng zǐ xiū shēn zuì dà de tè diǎn jiù shì bù kōng tán kǒu hào tā bǎ hóng dà xū wú de dào dé pǐn zhì chāi jiě chéng le měi tiān zuò rén zuò shì shí dōu yào hé duì de sān jiàn xiǎo shì què bǎo zì jǐ měi yí bù dōu zǒu de jí qí tà shí",
+                    enExplanation: "Correct! The text anchors dynamic operacionalization—converting abstract moral values into traceable operational behavior."
                 },
                 {
                     text: "指 采集 芦苇 / 详尽 记录 春秋 时期 军民 采摘 哨笛 簧片 过程 的 机械 循环",
                     py: "zhǐ cǎi jí lú wěi xiáng jìn jì lù chūn qiū shí qī jūn mín cǎi zhāi shào dí huáng piàn guò chéng de jī xiè xún huán",
                     en: "Refers to harvesting reeds / Specifying Spring and Autumn cycles of peasants collecting instrument parts.",
                     correct: false,
-                    explanation: "干扰项分析：高阶誘 bait（新马专属高辨析防投机模板）。故意设计来捕捉那些只看‘循环、多次’几个字眼就乱猜农业社会的‘采芦芦芦簧片’的投机型学生。防作弊防浮躁审题定力测试专用！本章完全是探讨内心修养哲学，不涉及采集簧片簧片军备物资的过程，防投机效果拉满。",
-                    explanationPy: "gān rǎo xiàng fēn xī gāo jiē 誘 bait nīn mǎ zhuān yú tí kù fáng tóu jī mó bǎn gù yì shè jì lái bǔ zhuō nà xiē zhǐ kàn xún huán duō cì jǐ gè zì yǎn jiù luàn cāi nóng yè shè huì de cǎi lú lú lú huáng piàn de tóu jī xíng xué shēng fáng zuò bì fáng fú zào shěn tí dìng lì cè shì zhuān yòng běn zhāng wán quán shì tǎo lùn nèi xīn xiū yǎng zhé xué bù shè jí cǎi jí huáng piàn huáng piàn jūn bèi wù zī de guò chéng fáng tóu jī xiào guǒ lā mǎn",
-                    enExplanation: "Distractor Analysis: Sophisticated full-decoy structure. It directs mechanical utility-driven scanning (seeing 'cycles') toward irrelevant mechanical imagery, punishing non-focused semantics."
+                    explanation: "错误。千万不要看到选项写得长就盲目选择。曾子的三句话跟收割植物、采集军事物资或者制作哨笛簧片的循环工序完全没有一丁点逻辑上的联系。",
+                    explanationPy: "cuò wù qiān wàn bú yào kàn dào xuǎn xiàng xiě de cháng jiù mǎng mù xuǎn zé zēng zǐ de sān jù huà gēn shōu gē zhí wù cǎi jí jūn shì wù zī huò zhě zhì zuò shào dí huáng piàn de xún huán gōng xù wán quán méi yǒu yì dīng diǎn luó ji shàng de lián xì",
+                    enExplanation: "Incorrect. It directs mechanical utility-driven scanning (seeing 'cycles') toward irrelevant mechanical imagery, punishing non-focused semantics."
                 },
                 {
                     text: "采取 随机 手法 / 纯粹 描写 孔子 弟子 们 一起 在 野外 采集 物资 的 活动",
                     py: "cǎi qǔ suí jī shǒu fǎ chún cuì miáo huǐ kǒng zǐ dì zǐ men yī qǐ zài yě wài cǎi jí wù zī de huó dòng",
                     en: "Adopting a random layout / Simply describing Confucius's disciples harvesting reeds together in the wilderness.",
                     correct: false,
-                    explanation: "干扰项分析：词义张冠李戴高诱惑设设设设陷阱。孔子和曾子都是入世修身的大儒，绝非斩断斩断红尘、孤芳孤芳自赏的冷酷隐士士。这里这里这里这里这里完全是在探讨探讨人伦哲哲哲学，不涉及采集资源，防作弊效果拉满。",
-                    explanationPy: "gān rǎo xiàng fēn xī cí yì zhāng guān lǐ dài gāo yòu huò shè shè shè shè xiàn jǐng kǒng zǐ hé zēng zǐ dōu shì rù shì xiū shēn de dà rú jué fēi zhǎn duàn zhǎn duàn hóng chén gū fāng gū fāng zì shǎng de lěng kù yǐn shì shì zhè lǐ zhè lǐ zhè lǐ zhè lǐ zhè lǐ wán quán shì zài tǎo lùn tǎo lùn rén lún zhé zhé zhé xué bù shè jí cǎi jí zī yuán fáng zuò bì xiào guǒ lā mǎn",
-                    enExplanation: "Distractor Analysis: Misinterprets the active social calibration model of Confucianism as mere agricultural resource collection."
+                    explanation: "错误。课文前后的逻辑结构非常严密，是由自我到他人、由行为到学业的层层推进，根本不是随手胡乱拼凑的，更不是在记录弟子们在野外采集生活资源的活动。",
+                    explanationPy: "cuò wù kè wén qián hòu de luó ji jié gòu fēi cháng yán mì shì yóu zì wǒ dào tā rén yóu xíng wéi dào xué yè de céng céng tuī jìn gēn běn bú shì suí shǒu hú luàn pīn còu de gèng bú shì zài jì lù dì zǐ men zài yě wài cǎi jí shēng huó zī yuán de huó dòng",
+                    enExplanation: "Incorrect. Misinterprets the active social calibration model of Confucianism as mere agricultural resource collection."
                 },
                 {
                     text: "指 传说 结构 / 详尽 描写 古代 人民 四处 四处 收割 的 哨笛 物资 过程",
                     py: "zhǐ chuán shuō jié gòu xiáng jìn miáo huǐ gǔ dài rén mín sì chù sì chù shōu gē de shào dí wù zī guò chéng",
                     en: "Refers to legend layout / Specifying Spring and Autumn cycles of peasants collecting materials for military parts.",
                     correct: false,
-                    explanation: "词义张冠李戴高诱惑设陷陷阱（新马专属题库检测模板）：再次强力强力嵌入上一上一课课课的高阶引导诱诱诱bait（采集芦苇、簧片哨笛），无无无无死死死死无死角捕捉那些功利型、不仔细仔细仔细仔细仔细咬对词义的学生，防作弊防机械记忆效果效果效果拉满。",
-                    explanationPy: "cí yì zhāng guān lǐ dài gāo yòu huò shè xiàn xiàn jǐng nīn mǎ zhuān yú tí kù jiǎn cè mó bǎn zài cì qiáng lì qiáng lì qiàn rù shàng yī shàng yī kè kè kè de gāo jiē yǐn dǎo yòu yòu yòu bai cǎi jí lú wěi huáng piàn shào dí wú wú wú wú sǐ sǐ sǐ sǐ wú sǐ jiǎo bǔ zhuō nà xiē gōng lì xíng bù zǐ xì zǐ xì zǐ xì zǐ xì zǐ xì yǎo duì cí yì de xué shēng fáng zuò bì fáng jī xiè jì yì xiào guǒ xiào guǒ xiào guǒ lā mǎn",
-                    enExplanation: "Distractor Analysis: Sophisticated full-decoy structure. It trực directly implements established mechanical imagery distractors to block utility-driven skimming behaviors."
+                    explanation: "错误。这属于无脑乱入的纯错误选项。曾子讨论的是个人反省和道德自我约束的哲学，完全不包含神话传说，更没有四处收割物资的劳作过程描述。",
+                    explanationPy: "cuò wù zhè shǔ yú wú nǎo luàn rù de chún cuò wù xuǎn xiàng zēng zǐ tǎo lùn de shì gè rén fǎn xǐng hé dào dé zì wǒ yuē shù de zhé xué wán quán bù bāo hán shén huà chuán shuō gèng méi yǒu sì chù shōu gē wù zī de láo zuò guò chéng miáo shù",
+                    enExplanation: "Incorrect. It directly implements established mechanical imagery distractors to block utility-driven skimming behaviors."
                 }
             ]
         }
