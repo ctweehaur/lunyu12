@@ -105,7 +105,7 @@ const shortQData = {
             aEn: "Because consolidated data structures preserve the cohesive nature of the worldview. The 12 components establish continuous thematic loops; partitioning them breeds cognitive friction. Shuffling them dynamically within a unified view enhances engagement and eliminates mobile iframe whiteouts entirely."
         }
     ],
-            chapter_2: [
+chapter_2: [
         {
             id: "T1",
             qZh: "曾子为什么要通过“为人谋”、“与朋友交”、“传不习”这三个极为具体的日常生活细节来反省自己？",
@@ -114,57 +114,97 @@ const shortQData = {
             sZh: [
                 "1. 第一步：如果一个人整天只在脑子里反省‘我是个好人吗’，这种空洞的大概念修身容易落实吗？",
                 "2. 第二步：为人办事（忠）、与朋友交往（信）、对待学业（习），这三者几乎涵盖了我们日常社会生活的哪些核心场景？",
-                "3. 第三步：从最微小、最具体的身边小事做起，对于儒家建立脚踏实地的健全人格有什么关键实践价值？"
+                "3. 第三步：从最微小、最具体的身边小事做起，对于我们建立脚踏实地的健全人格有什么关键实践价值？"
             ],
             sPy: [
                 "dì yī bù rú guǒ yī gè rén zhěng tiān zhǐ zài nǎo zi lǐ fǎn xǐng wǒ shì gè hǎo rén ma zhè zhǒng kōng dòng de dà gài niàn xiū shēn róng yì luò shí ma",
                 "dì èr bù wèi rén bàn shì zhōng yǔ péng you jiāo wǎng xìn duì dài xué yè xí zhè sān zhě jǐ hū hán gài le wǒ men rì cháng shè huì shēng huó de nǎ xiē hé xīn chǎng jǐng",
-                "dì sān bù cóng zuì wēi xiǎo zuì jù tǐ de shēn biān xiǎo shì zuò qǐ duì yú rú jiā jiàn lì jiǎo tà shí dì de jiàn quán rén gé yǒu shén me guān jiàn yì yì"
+                "dì sān bù cóng zuì wēi xiǎo zuì jù tǐ de shēn biān xiǎo shì zuò qǐ duì yú wǒ men jiàn lì jiǎo tà shí dì de jiàn quán rén gé yǒu shén me guān jiàn shí jiàn jià zhí"
             ],
             sEn: "Step 1: If a person simply asks general questions like 'am I a good person?', is such abstract reflection easily actionable?<br>Step 2: Transacting tasks (loyalty), engaging peers (trust), and handling knowledge (review)—which core pillars of daily life do these encompass?<br>Step 3: What practical value does tracking small, explicit behaviors hold for constructing authentic Confucian integrity?",
-            aZh: "因为儒家学派的修身治学从来不是悬空、空洞的口号，而是必须扎根于具体实践。曾子挑选的这三个核心细节，精准覆盖了人际交往的三个重大维度：‘忠’处理的是人与社会的责任，‘信’处理的是人与人的契约，‘习’处理的是个体与真理的链接。通过将宏大的道德评价解构成每天都能清点、核对的具体行为指标，才能防止自我欺骗，真正让道德修养落地生根。",
-            aPy: "yīn wèi rú jiā xué pài de xiū shēn zhì xué cóng lái bú shì xuán kōng kōng dòng de kǒu hào ér shì bì xū zhā gēn yú jù tǐ shí jiàn zēng zǐ tiāo xuǎn de zhè sān gè hé xīn xì jié jīng zhǔn fù gài le rén jì jiāo wǎng de sān gè zhòng dà wéi dù zhōng chǔ lǐ de shì rén yǔ shè huì de zé rèn xìn chǔ lǐ de shì rén yǔ rén de qì yuē xí chǔ lǐ de shì gè tǐ yǔ zhēn lǐ de liàn jiē tōng guò jiāng hóng dà de dào dé píng jià jiě gòu chéng měi tiān dōu néng qīng diǎn hé duì de jù tǐ xíng wéi zhǐ biāo cái néng fáng zhǐ zì wǒ qī piàn zhēn zhèng ràng dào dé xiū yǎng luò dì shēng gēn",
+            aZh: "因为儒家学派的修身从来不是悬空的口号，而是必须扎根于具体生活。曾子挑选的这三个核心细节，精准覆盖了人际交往和个人治学的三个重大维度：‘忠’处理的是替人办事的责任，‘信’处理的是与朋友交往的诚实信用，‘习’处理的是个体对老师学业知识的温习传承。通过将宏大的道德评价拆解为每天都能清点、核对的具体行为，才能防止自我欺骗，真正让道德修养落地生根。",
+            aPy: "yīn wèi rú jiā xué pài de xiū shēn cóng lái bú  shì xuán kōng kōng dòng de kǒu hào ér shì bì xū zhā gēn yú jù tǐ shí jiàn zēng zǐ tiāo xuǎn de zhè sān gè hé xīn xì jié jīng zhǔn fù gài le rén jì jiāo wǎng de sān gè zhòng dà wéi dù zhōng chǔ lǐ de shì tì rén bàn shì de zé rèn xìn chǔ lǐ de shì yǔ péng you jiāo wǎng de chéng shí xìn yòng xí chǔ lǐ de shì gè tǐ duì lǎo shī xué yè zhī shi de wēn xí chuán chéng tōng guò jiāng hóng dà de dào dé píng jià chāi jiě wéi měi tiān dōu néng qīng diǎn hé duì de jù tǐ xíng wéi cái néng fáng zhǐ zì wǒ qī piàn zhēn zhèng ràng dào dé xiū yǎng luò dì shēng gēn",
             aEn: "Confucian self-cultivation eschews abstract sloganeering, demanding anchored operational behavioral metrics instead. Zengzi's matrix maps three existential fields: relational duty (忠), civic contracts (信), and cognitive lineage (习). Deconstructing heavy morality into daily checkable tracking protocols blocks defensive denial and forces measurable growth."
         },
         {
             id: "T2",
-            qZh: "品读曾子的三个反省，分析在儒家修身治学体系中，“内省（neixing）”起到了什么终极作用？",
+            qZh: "品读曾子的三个反省，分析在儒家修身治学体系中，“内省（neisheng）”起到了什么终极作用？",
             qPy: "pǐn dú zēng zǐ de sān gè fǎn xǐng fēn xī zài rú jiā xiū shēn zhì xué tǐ xì zhōng nèi xǐng qǐ dào le shén me zhōng jí zuò yòng",
-            en: "Analyze the tripartite reflection matrix. What is the supreme function of introspection (内省) in self-cultivation?",
+            qEn: "Analyze the tripartite reflection matrix. What is the supreme function of introspection (内省) in self-cultivation?",
             sZh: [
-                "1. 第一步：如果不进行日三省，一个人在社会交往（忠、信）和学业继承（传、习）中可能会产生什么虚荣或懈怠行为？",
-                "2. 第二步：曾子的“扫描”标准（尽心乎、信乎、习乎），是将道德大道理虚化，还是转化为脚踏实地的具体行为指数？",
-                "3. 第三步：这种高频次的内心道德核对，是如何防止一个人落入肤浅的虚荣或自我欺骗，从而建立独立的健全人格？"
+                "1. 第一步：如果没有坚持每天反省，一个人在社会交往和学业继承中可能会产生什么懒惰或盲目虚荣的行为？",
+                "2. 第二步：曾子的反省标准（尽心乎、诚实乎、温习乎），如何帮助我们把虚无缥缈的道德原则在内心牢牢锁定？",
+                "3. 第三步：这种高频次的自我检查，是如何让我们不依赖外界的赞美，建立独立、强大且坦荡的内心世界？"
             ],
             sPy: [
-                "dì yī bù rú guǒ bù jìn háng rì sān xǐng yī gè rén zài shè huì jiāo wǎng zhōng xìn hé xué yè jì chéng chuán xí zhōng kě néng huì chǎn shēng shén me xū róng huò xiè dài xíng wéi",
-                "dì èr bù zēng zǐ de sǎo miáo biāo zhǔn jìn xīn hū xìn hū xí hū shì jiāng dào dé dà dào lǐ xū huà hái shì zhuǎn huà wéi jiǎo tà shí dì de jù tǐ xíng wéi zhǐ shù",
-                "dì sān bù zhè zhǒng gāo pín cì de nèi xīn dào dé hé duì shì rú hé fáng zhǐ yī gè rén luò rù fū qiǎn de xū róng huò zì wǒ qī piàn cóng ér jiàn lì dú lì de jiàn quán rén gé"
+                "dì yī bù rú guǒ méi yǒu jiān chí měi tiān fǎn xǐng yī gè rén zài shè huì jiāo wǎng hé xué yè jì chéng zhōng kě néng huì chǎn shēng shén me lǎn duò huò máng mù xū róng de xíng wéi",
+                "dì èr bù zēng zǐ de fǎn xǐng biāo zhǔn jìn xīn hū chéng shí hū wēn xí hū rú hé bāng zhù wǒ men bǎ xū wú piāo miǎo de dào dé yuán zé zài nèi xīn láo láo suǒ dìng",
+                "dì sān bù zhè zhǒng gāo pín cì de zì wǒ jiǎn chá shì rú hé ràng wǒ men bù yī lài wài jiè de zàn měi jiàn lì dú lì qiáng dà qiě tǎn dàng de nèi xīn shì jiè"
             ],
-            sEn: "Step 1: If daily reflection stops, what lazy or vain behaviors might leak into a person's social and academic operations?<br>Step 2: Are Master Zeng's 'scan' standards (loyalty, trust, review) abstracting morality or converting it into behavioral metrics?<br>Step 3: How does this frequency mental audit prevent vanity and defensive denial, forging autonomous integrity?",
-            aZh: "曾子的“日三省”展现了儒家修身脚踏实地的实践路径。普通人最容易在社会交往中落入肤浅的虚荣，或者在孤独的学习中产生懈怠。而曾子通过忠（责任）、信（契约）、习（学术）这三个每天都具体执行的行为指标，将宏大的道德评价构解为可以通过肉眼核对的行为参数。通过这种高频次的内心“扫描”，儒家防止一个人陷入自我欺骗，维持精神的绝对独立与富足，从而建立健全、独立的君子人格。",
-            aPy: "zēng zǐ de rì sān xǐng zhǎn xiàn le rú jiā xiū shēn jiǎo tà shí dì de shí jiàn lù jìng pǔ tōng rén zuì róng yì zài shè huì jiāo wǎng zhōng luò rù fū qiǎn de xū róng huò zhě zài gū dú de xué xí zhōng chǎn shēng xiè dài ér zēng zǐ tōng guò zhōng zé rèn xìn qì yuē xí xué shù zhè sān gè měi tiān dōu jù tǐ zhí háng de xíng wéi zhǐ biāo jiāng hóng dà de dào dé píng jià gòu jiě wéi kě yǐ tōng guò ròu yǎn hé duì de xíng wéi cān shù tōng guò zhè zhǒng gāo pín cì de nèi xīn sǎo miáo rú jiā fáng zhǐ yí gè rén xiàn rù zì wǒ qī piàn wéi chí jīng shén de jué duì dú lì yǔ fù zú cóng ér jiàn lì jiàn quán dú lì de jūn zǐ rén gé",
-            enExplanation: "It Benchmarks absolute autonomy over one's emotional and existential value. Morality must anchor dynamics—converting abstract values into traceable operational behavior. While average minds lean on validation, the scan forces intrinsic alignment."
+            sEn: "Step 1: If daily reflection stops, what lazy or vain behaviors might leak into a person's social and academic operations?<br>Step 2: Are Master Zeng's 'scan' standards converting abstract morality into internal checkpoints?<br>Step 3: How does this frequency mental audit prevent reliance on outside validation, forging an unshakeable soul?",
+            aZh: "“内省”是儒家学派用来实现人格独立与自我修补的终极防线。曾子通过每天对自己的‘忠’、‘信’、‘习’进行地毯式扫描，能够及时捕捉到内心产生的一丁点懒惰或自欺欺人。这种高频次的自我灵魂清点，让我们不需要依赖外界的掌声或点赞来证明自己，而是将道德准则转化为内心坚固的底气，从而达到宠辱不惊、人格完善的崇高境界。",
+            aPy: "nèi xǐng shì rú jiā xué pài yòng lái shí xiàn rén gé dú lì yǔ zì wǒ xiū bǔ de zhōng jí fáng xiàn zēng zǐ tōng guò měi tiān duì zì jǐ de zhōng xìn xí jìn háng dì tǎn sǎo miáo néng gòu jí shí bǔ zhuō dào nèi xīn chǎn shēng de yì dīng diǎn lǎn duò huò zì qī qī rén zhè zhǒng gāo pín cì de zì wǒ líng hún qīng diǎn ràng wǒ men bù xū yào yī lài wài jiè de zhǎng shēng huò diǎn zàn lái zhèng míng zì jǐ ér shì jiāng dào dé zhǔn zé zhuǎn huà wéi nèi xīn jiān gù de dǐ qì cóng ér dá dào chǒng rǔ bù jīng rén gé wán shàn de chóng gāo jìng jiè",
+            aEn: "It benchmarks absolute autonomy over one's ethical progression. Introspection operationalizes abstract dogma into trackable daily self-corrections, allowing a person to maintain deep moral dignity independent of societal feedback."
         },
         {
             id: "T3",
-            qZh: "曾子的反省包含为人办事、与人交往（社会互动）以及老师传授（教学链接），这展现了论语怎样的教学特色？",
-            qPy: "zēng zǐ de fǎn xǐng bāo hán wèi rén bàn shì yǔ rén jiāo wǎng shè huì hù dòng yǐ jí lǎo shī chuán shòu jiào xué liàn jiē zhè zhǎn xiàn le lùn yǔ zěn yàng de jiào xué tè diǎn",
-            en: "Introspection maps duty, trust, and cognitive review—three operational fields. What pedagogical model does this reflect?",
+            qZh: "结合本章，谈谈你对“传不习乎”中“习”字的理解，它和第一章的“学而时习之”有什么内在联系？",
+            qPy: "jié hé běn zhāng tán tán nǐ duì chuán bù xí hū zhōng xí zì de lǐ jiě tā hé dì yī zhāng de xué ér shí xí zhī yǒu shén me nèi zài lián xì",
+            qEn: "Based on the text, analyze '习' in line 4. How does it align internally with '习' in Chapter 1?",
             sZh: [
-                "1. 第一步：如果不进行日三省，曾子如何确保老师子曰传授的理论知识能真正落长在自己骨子里？",
-                "2. 第二步：将社会层面的道德履行（忠、信）跟个体学术认知精进（传、习）精简合并在同一个修身项目里，说明了什么？",
-                "3. 第三步：这种多章合一、环环相扣的项目大概念，对于提升我们平台的高级 EdTech 质感有什么 pedagog y 价值？"
+                "1. 第一步：第一章的‘习’和本章的‘习’，在字面本义上都包含着温习、复习和什么重要的实际行动？",
+                "2. 第二步：‘传不习乎’作为曾子每天反省的最后一关，说明光听老师讲课、不做课后消化实践，学问能变成自己的吗？",
+                "3. 第三步：两章都反复死磕这个‘习’字，说明论语在治学态度上，非常反对什么样的空谈和死记硬背？"
             ],
             sPy: [
-                "dì yī bù rú guǒ bù jìn háng rì sān xǐng zēng zǐ rú hé què bǎo lǎo shī zǐ yuē chuán shòu de lǐ lùn zhī shi néng zhēn zhèng luò zhǎng zài zì jǐ gǔ zi lǐ",
-                "dì èr bù jiāng shè huì céng miàn de dào dé lǚ háng zhōng xìn gēn gè tǐ xué shù rèn zhī jīng jìn chuán xí jīng jiǎn hé bìng zài tóng yí gè xiū shēn xiàng mù lǐ shuō míng le shén me",
-                "dì sān bù zhè zhǒng duō zhāng hé yī huán huán xiāng kòu de xiàng mù dà gài niàn duì yú tí shēng wǒ men píng tái de gāo jí EdTech zhì gǎn yǒu shén me pedagog y jià zhí"
+                "dì yī bù dì yī zhāng de xí hé běn zhāng de xí zài zì miàn běn yì shàng dōu bāo hán zhe wēn xí fù xí hé shén me zhòng yào de shí jì xíng dòng",
+                "dì èr bù chuán bù xí hū zuò wéi zēng zǐ měi tiān fǎn xǐng de zuì hòu yī guān shuō míng guāng tīng lǎo shī jiǎng kè bú zuò kè hòu xiāo huà shí jiàn xué wèn néng biàn chéng zì jǐ de ma",
+                "dì sān bù liǎng zhāng dōu fǎn fù sǐ kē zhè gè xí zì shuō míng lùn yǔ zài zhì xué yài dù shàng fēi cháng fǎn duì zěn yàng de kōng tán hé sǐ jì yìng bèi"
             ],
-            sEn: "Step 1: If reflection stops, how does Zengzi ensure that theoretical knowledge directly internalizes into personal wisdom?<br>Step 2: Merging social execution (loyalty, trust) and cognitive lineage (review) into a single operational matrix implies what?<br>Step 3: What pedagogical value does consolidating these multi-chapter Pinyin-aligned behavioral metrics add to the site's profile?<br>",
-            aZh: "曾子的日三省极度极度契合儒家项目式教学 pedagog y：将宏大的道德人格建设项目，构解解成为每天、具体可以执行、履行以及核对的执行标准。忠信是社会履行输入的数据，习是认知精进数据的切磋，只有通过自我灵魂高频扫描校验系统，输入数据才能穿透表面落地的修身实践路径，成为长在骨子里的自我哲学。这种数据咬合咬合咬合非常高级，体现了系统性 Pedagogy 质感。",
-            aPy: "zēng zǐ de rì sān xǐng jí dù jí dù qì hé rú jiā xiàng mù shì jiào xué pedagog y jiāng hóng dà de dào dé rén gé jiàn shè xiàng mù gòu jiě jiě chéng wéi měi tiān jù tǐ kě yǐ zhí háng lǚ háng yǐ jí hé duì de zhí háng biāo zhǔn zhōng xìn shì shè huì lǚ háng shū rù de shù jù xí shì rèn zhī jīng jìn shù jù de qiē cuō zhǐ yǒu tōng guò zì wǒ líng hún gāo pín sǎo miáo xiào yàn xì tǒng shū rù shù jù cái néng chuān tòu biǎo miàn luò dì de xiū shēn shí jiàn lù jìng chéng wéi zhǎng zài gǔ zi lǐ de zì wǒ zhé xué zhè zhǒng shù jù yǎo hé yǎo hé yǎo hé fēi cháng gāo jí tǐ xiàn le xì tǒng xìng Pedagogy zhì gǎn",
-            enExplanation: "Because consolidated behavioral metrics (Pinyin-aligned steps) prevent abstract moralism. The matrix maps social contracts directly to personal knowledge maintenance. Learning inputs data, while introspection OPERATIONALIZES it, enabling unshakeable semantic precision—just like our data structures."
+            sEn: "Step 1: What core action do both definitions of '习' incorporate beyond pure cerebral study?<br>Step 2: Serving as the final checkpoint, what does '习' imply about simply listening to teachers without manual application?<br>Step 3: What kind of rote memorization or empty talk does this continuous stress on '习' explicitly reject?",
+            aZh: "两章的“习”字一脉相承，其核心含义都是指“将学到的理论知识投入到实际生活中去温习、演练与实践”。第一章强调的是通过‘学而时习’获得内心的喜悦，而第二章则是将‘传不习乎’作为每天雷打不动的道德防线。曾子把它放在反省的最后一关，深刻说明了学习绝对不是坐在书斋里应付考试、死记硬背，如果不经过亲自动手实践与反复消化，老师传授的学业就永远只是一堆无用的废纸。",
+            aPy: "liǎng zhāng de xí zì yí mài xiāng chéng qí hé xīn hán yì dōu zhǐ jiāng xué dào de lǐ lùn zhī shi tóu rù dào shí jì shēng huó qù wēn xí yǎn liàn yǔ shí jiàn dì yī zhāng qiáng diào de  shì tōng guò xué ér shí xí huò dé nèi xīn de xǐ yuè ér dì èr zhāng zé shì jiāng chuán bù xí hū zuò wéi měi tiān léi dǎ bú dòng de dào dé fáng xiàn zēng zǐ bǎ tā fàng zài fǎn xǐng de zuì hòu yī guān shēn kè shuō míng le xué xí jué duì bú  shì zuò zài shū zhāi lǐ yìng fù kǎo shì sǐ jì yìng bèi rú guǒ bú jīng guò qīn zì dòng shǒu shí jiàn yǔ fǎn fù xiāo huà lǎo shī chuán shòu de xué yè jiù yǒng yuǎn zhǐ  shì yī duī wú yòng de fèi zhǐ",
+            enExplanation: "The character '习' across both sections functions synchronously. It moves study away from passive cognitive tracking into active real-world operations. Introspection tests whether shared information has successfully been implemented into daily custom."
+        },
+        {
+            id: "T4",
+            qZh: "曾子所说的“为人谋而不忠乎”和“与朋友交而不信乎”，这两者之间存在怎样的深层逻辑联系？",
+            qPy: "zēng zǐ suǒ shuō de wèi rén móu ér bù zhòng hū hé yǔ péng you jiāo ér bù xìn hū zhè liǎng zhě zhī jiān cún zài zěn yàng de shēn céng luó ji lián xì",
+            qEn: "What is the underlying logical thread connecting 'loyalty in tasks' (忠) and 'trust in peer circles' (信)?",
+            sZh: [
+                "1. 第一步：‘为人谋’处理的是大范围的社会公共托付，而‘与朋友交’处理的是个体之间的什么情感契约？",
+                "2. 第二步：一个人如果对普通人交代的任务都能尽心竭力（忠），那么他在跟亲近的朋友相处时，有可能说谎、不讲信用吗？",
+                "3. 第三步：将‘忠’与‘信’紧密绑在一起，说明儒家在衡量一个人的整体道德品质时，采用的是高度统一的闭环。",
+            ],
+            sPy: [
+                "dì yī bù wèi rén móu chǔ lǐ de shì dà fàn wéi de shè huì gōng gòng tuō fù ér yǔ péng you jiāo chǔ lǐ de shì gè tǐ zhī jiān de shén me qíng gǎn qì yuē",
+                "dì èr bù yī gè rén rú guǒ duì pǔ tōng rén jiāo dài de rèn wu dōu néng jìn xīn jié lì zhōng nà me tā zài gēn qīn jìn de péng you xiāng chǔ shí yǒu kě néng shuō huǎng bù jiǎng xìn yòng ma",
+                "dì sān bù jiāng zhōng yǔ xìn jǐn mǐ bǎng zài yī qǐ shuō míng rú jiā zài héng liáng yī gè rén de zhěng tǐ dào dé pǐn zhì shí cǎi yòng de shì gāo dù tǒng yī de bì huán"
+            ],
+            sEn: "Step 1: Public responsibility maps to society (忠), while relational trust maps to close peers (信). What is the crossover?<br>Step 2: If a person devotes full energy to absolute strangers, will they easily break contracts with intimate friends?<br>Step 3: What does binding '忠' and '信' together reveal about the wholeness of moral character in Confucian theory?",
+            aZh: "这两者构成了儒家评价社会交往的完整双轨系统。“为人谋”针对的是广义上的公共社会责任，要求我们在替普通人或者长官办事时做到“尽心竭力（忠）”；而“与朋友交”针对的则是狭义上的私人社交契约，要求我们在与志同道合的同辈相处时做到“诚实守信（信）”。‘忠’是‘信’的底气与延伸，‘信’是‘忠’在亲密关系中的体现。两者一公一私、一外一内，共同锁定了君子行走社会、立足于天地之间的核心信用闭环。",
+            aPy: "zhè liǎng zhě gòu chéng le rú jiā píng jià shè huì jiāo wǎng de wán zhěng shuāng guǐ xì tǒng wèi rén móu zhēn duì de guǎng yì shàng de gōng gòng shè huì zé rèn yāo qiú wǒ men zài tì pǔ tōng rén huò zhě zhǎng guān bàn shì shí zuò dào jìn xīn jié lì zhōng ér yǔ péng you jiāo zhēn duì de zé shì xiá yì shàng de sī rén shè jiāo qì yuē yāo qiú wǒ men zài yǔ zhì tóng dào hé de tóng bèi xiāng chǔ shí zuò dào chéng shí shǒu xìn xìn zhōng shì xìn de dǐ qì yǔ yán shēn xìn shì zhōng zài qīn mì guān xi zhōng de tǐ xiàn liǎng zhě yī gōng yī sī yī wài yī nèi gòng tóng suǒ dìng le jūn zǐ xíng zhǎng shè huì lì zú yú tiān dì zhī jiān de hé xīn xìn yòng bì huán",
+            enExplanation: "They represent dual axes of relational calibration. '忠' anchors generic public deployment and accountability to superiors; '信' measures the integrity of personal communication with voluntary peers. Together, they eliminate moral hypocrisy across public and private walls."
+        },
+        {
+            id: "T5",
+            qZh: "对比第一章和第二章，分析《论语·十二章》为什么要把这两章并列放在整部经典的最开头？",
+            qPy: "duì bǐ dì yī zhāng hé dì èr zhāng fēn xī lùn yǔ shí èr zhāng wèi shén me yào bǎ zhè liǎng zhāng bìng liè fàng zài zhěng bù jīng diǎn de zuì kāi tóu",
+            qEn: "Comparing Chapter 1 and Chapter 2, why are these sections chosen to open the entire classical textbook?",
+            sZh: [
+                "1. 第一步：第一章核心在讲‘学、朋、君子’的高级快乐，第二章核心在讲通过‘日三省’克制自满，两章在基调上一放一收，形成了什么互补？",
+                "2. 第二步：这两章共同明确提出了儒家修身大项目里的三大硬核要素：学习（习）、交友（朋/信）与自我约束（不愠/内省），这对于初学文言文的学生来说起到了什么总领作用？",
+                "3. 第三步：在同一个网页关卡内连续体验这两章的同步换底切换，对于建立全局的古文世界观有什么价值？"
+            ],
+            sPy: [
+                "dì yī bù dì yī zhāng hé xīn zài jiǎng xué péng jūn zǐ de gāo jí xǐ yuè dì èr zhāng hé xīn zài jiǎng tōng guò rì sān xǐng kè zhì zì mǎn liǎng zhāng zài jī diào shàng yí fàng yì shōu xíng chéng le shén me hù bǔ",
+                "dì èr bù zhè liǎng zhāng gòng tóng míng què tí chū le rú jiā xiū shēn dà xiàng mù lǐ de sān dà yìng hé yào sù xué xí xí jiāo yǒu péng xìn yǔ zì wǒ yuē shù bú yùn nèi xǐng zhè duì yú chū xué wén yán wén de xué shēng lái shuō qǐ dào le shén me zǒng lǐng zuò yòng",
+                "dì sān bù zài tóng yí gè wǎng yè guān kǎ nèi lián xù tǐ yàn zhè liǎng zhāng de tóng bù huàn dǐ qiē huàn duì yú jiàn lì quán jú de gǔ wén shì jiè guān yǒu shén me jià zhí"
+            ],
+            sEn: "Step 1: Chapter 1 balances private satisfaction, while Chapter 2 restricts vanity with systematic checks. How do these alternate dynamic loads?<br>Step 2: What total thematic blueprint do these elements map out for students embarking on classical prose?<br>Step 3: What value does processing these two matching structures on a single dynamic page add to deep textual tracking?",
+            aZh: "因为这两章并列构成了儒家人生哲学的“总纲领与核心框架”。第一章以开放、喜悦的姿态拉开大幕，鼓励我们积极投入学习、结交同道、坦荡面对误解（说、乐、不愠）；而第二章则迅速收紧心神，用严苛的‘日三省’提供了一套可以随时清点、核对的具体执行路线（忠、信、习）。一放一收，一阳一阴，两章交织互补，完美奠定了全篇关于学问认知、社会人伦与内心防御的最高行动指南，因此具有至高无上的开篇艺术价值。",
+            aPy: "yīn wèi zhè liǎng zhāng bìng liè gòu chéng le rú jiā rén shēng zhé xué de zǒng gāng lǐng yǔ hé xīn kuàng jià dì yī zhāng yǐ kāi fàng xǐ yuè de zī tài lā kāi dà mù gǔ lì wǒ men jī jí tóu rù xué xí jié jiāo tóng dào tǎn dàng miàn duì wù jiě yuè lè bú yùn ér dì èr zhāng zé xùn sù shōu jǐn xīn shén yòng yán kē de rì sān xǐng tí chū le yí tào kě yǐ suí shí qīng diǎn hé duì de jù tǐ xíng wéi zhí háng lù xiàn zhōng xìn xí yí fàng yì shōu yí yáng yí yīn liǎng zhāng jiāo zhī hù bǔ wán měi diàn dìng le quán piān guān yú xué wèn rèn zhī shè huì rén lún yǔ nèi xīn fáng yù de zuì gāo xíng dòng zhǐ nán yīn cǐ jù yǒu zhì gāo yǐng shàng de kāi piān yì shù jià zhí",
+            enExplanation: "Because consolidated together, they chart the definitive behavioral matrix of early Confucian development. Chapter 1 establishes an expansive reward architecture (delight, group celebration); Chapter 2 grounds that aspiration with internal audit controls. Together, they function as the ultimate ideological gatekeeper for text analysis."
         }
     ]
 };
