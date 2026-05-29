@@ -104,6 +104,68 @@ const shortQData = {
             aPy: "yīn wèi duō zhāng hé yī jí dà dì qì hé le rú jiā sī xiǎng de xì tǒng xìng yǔ wán zhěng xìng lùn yǔ shí èr zhāng zì zì zhū jī zài bù tóng zhāng jié zhōng hù wéi fā míng qián hòu hū yìng rú hòu miàn hái huì duō cì tǎo lùn dào jūn zǐ hé xué rú guǒ zuò chéng shí èr gè wǎng yè huì gē liè nèi róng qiě jiā zài jí dù yōng zhǒng tōng guò tóng yí gè zhǔ wǎng yè de guān kǎ wēi tiáo huàn dǐ bù jǐn chuàng zào le yóu xì chuǎng guān shì de liú chàng jiào xué tǐ yàn gèng zài jì shù shàng chè dǐ guī bì le  kè hù duān nèi qiàn duō lián jiē de jiā zài bái píng yǔ zhé teng zuì dà huà le yòng hù tǐ yàn",
             aEn: "Because consolidated data structures preserve the cohesive nature of the worldview. The 12 components establish continuous thematic loops; partitioning them breeds cognitive friction. Shuffling them dynamically within a unified view enhances engagement and eliminates mobile iframe whiteouts entirely."
         }
+    ],
+            chapter_2: [
+        {
+            id: "T1",
+            qZh: "曾子为什么要通过“为人谋”、“与朋友交”、“传不习”这三个极为具体的日常生活细节来反省自己？",
+            qPy: "zēng zǐ wèi shén me yào tōng guò wèi rén móu yǔ péng you jiāo chuán bù xí zhè sān gè jí wéi jù tǐ de rì cháng shēng huó xì jié lái fǎn xǐng zì jǐ",
+            qEn: "Why does Zengzi select three hyper-specific interpersonal details to construct his daily moral self-examination?",
+            sZh: [
+                "1. 第一步：如果一个人整天只在脑子里反省‘我是个好人吗’，这种空洞的大概念修身容易落实吗？",
+                "2. 第二步：为人办事（忠）、与朋友交往（信）、对待学业（习），这三者几乎涵盖了我们日常社会生活的哪些核心场景？",
+                "3. 第三步：从最微小、最具体的身边小事做起，对于儒家建立脚踏实地的健全人格有什么关键实践价值？"
+            ],
+            sPy: [
+                "dì yī bù rú guǒ yī gè rén zhěng tiān zhǐ zài nǎo zi lǐ fǎn xǐng wǒ shì gè hǎo rén ma zhè zhǒng kōng dòng de dà gài niàn xiū shēn róng yì luò shí ma",
+                "dì èr bù wèi rén bàn shì zhōng yǔ péng you jiāo wǎng xìn duì dài xué yè xí zhè sān zhě jǐ hū hán gài le wǒ men rì cháng shè huì shēng huó de nǎ xiē hé xīn chǎng jǐng",
+                "dì sān bù cóng zuì wēi xiǎo zuì jù tǐ de shēn biān xiǎo shì zuò qǐ duì yú rú jiā jiàn lì jiǎo tà shí dì de jiàn quán rén gé yǒu shén me guān jiàn yì yì"
+            ],
+            sEn: "Step 1: If a person simply asks general questions like 'am I a good person?', is such abstract reflection easily actionable?<br>Step 2: Transacting tasks (loyalty), engaging peers (trust), and handling knowledge (review)—which core pillars of daily life do these encompass?<br>Step 3: What practical value does tracking small, explicit behaviors hold for constructing authentic Confucian integrity?",
+            aZh: "因为儒家学派的修身治学从来不是悬空、空洞的口号，而是必须扎根于具体实践。曾子挑选的这三个核心细节，精准覆盖了人际交往的三个重大维度：‘忠’处理的是人与社会的责任，‘信’处理的是人与人的契约，‘习’处理的是个体与真理的链接。通过将宏大的道德评价解构成每天都能清点、核对的具体行为指标，才能防止自我欺骗，真正让道德修养落地生根。",
+            aPy: "yīn wèi rú jiā xué pài de xiū shēn zhì xué cóng lái bú shì xuán kōng kōng dòng de kǒu hào ér shì bì xū zhā gēn yú jù tǐ shí jiàn zēng zǐ tiāo xuǎn de zhè sān gè hé xīn xì jié jīng zhǔn fù gài le rén jì jiāo wǎng de sān gè zhòng dà wéi dù zhōng chǔ lǐ de shì rén yǔ shè huì de zé rèn xìn chǔ lǐ de shì rén yǔ rén de qì yuē xí chǔ lǐ de shì gè tǐ yǔ zhēn lǐ de liàn jiē tōng guò jiāng hóng dà de dào dé píng jià jiě gòu chéng měi tiān dōu néng qīng diǎn hé duì de jù tǐ xíng wéi zhǐ biāo cái néng fáng zhǐ zì wǒ qī piàn zhēn zhèng ràng dào dé xiū yǎng luò dì shēng gēn",
+            aEn: "Confucian self-cultivation eschews abstract sloganeering, demanding anchored operational behavioral metrics instead. Zengzi's matrix maps three existential fields: relational duty (忠), civic contracts (信), and cognitive lineage (习). Deconstructing heavy morality into daily checkable tracking protocols blocks defensive denial and forces measurable growth."
+        },
+        {
+            id: "T2",
+            qZh: "品读曾子的三个反省，分析在儒家修身治学体系中，“内省（neixing）”起到了什么终极作用？",
+            qPy: "pǐn dú zēng zǐ de sān gè fǎn xǐng fēn xī zài rú jiā xiū shēn zhì xué tǐ xì zhōng nèi xǐng qǐ dào le shén me zhōng jí zuò yòng",
+            en: "Analyze the tripartite reflection matrix. What is the supreme function of introspection (内省) in self-cultivation?",
+            sZh: [
+                "1. 第一步：如果不进行日三省，一个人在社会交往（忠、信）和学业继承（传、习）中可能会产生什么虚荣或懈怠行为？",
+                "2. 第二步：曾子的“扫描”标准（尽心乎、信乎、习乎），是将道德大道理虚化，还是转化为脚踏实地的具体行为指数？",
+                "3. 第三步：这种高频次的内心道德核对，是如何防止一个人落入肤浅的虚荣或自我欺骗，从而建立独立的健全人格？"
+            ],
+            sPy: [
+                "dì yī bù rú guǒ bù jìn háng rì sān xǐng yī gè rén zài shè huì jiāo wǎng zhōng xìn hé xué yè jì chéng chuán xí zhōng kě néng huì chǎn shēng shén me xū róng huò xiè dài xíng wéi",
+                "dì èr bù zēng zǐ de sǎo miáo biāo zhǔn jìn xīn hū xìn hū xí hū shì jiāng dào dé dà dào lǐ xū huà hái shì zhuǎn huà wéi jiǎo tà shí dì de jù tǐ xíng wéi zhǐ shù",
+                "dì sān bù zhè zhǒng gāo pín cì de nèi xīn dào dé hé duì shì rú hé fáng zhǐ yī gè rén luò rù fū qiǎn de xū róng huò zì wǒ qī piàn cóng ér jiàn lì dú lì de jiàn quán rén gé"
+            ],
+            sEn: "Step 1: If daily reflection stops, what lazy or vain behaviors might leak into a person's social and academic operations?<br>Step 2: Are Master Zeng's 'scan' standards (loyalty, trust, review) abstracting morality or converting it into behavioral metrics?<br>Step 3: How does this frequency mental audit prevent vanity and defensive denial, forging autonomous integrity?",
+            aZh: "曾子的“日三省”展现了儒家修身脚踏实地的实践路径。普通人最容易在社会交往中落入肤浅的虚荣，或者在孤独的学习中产生懈怠。而曾子通过忠（责任）、信（契约）、习（学术）这三个每天都具体执行的行为指标，将宏大的道德评价构解为可以通过肉眼核对的行为参数。通过这种高频次的内心“扫描”，儒家防止一个人陷入自我欺骗，维持精神的绝对独立与富足，从而建立健全、独立的君子人格。",
+            aPy: "zēng zǐ de rì sān xǐng zhǎn xiàn le rú jiā xiū shēn jiǎo tà shí dì de shí jiàn lù jìng pǔ tōng rén zuì róng yì zài shè huì jiāo wǎng zhōng luò rù fū qiǎn de xū róng huò zhě zài gū dú de xué xí zhōng chǎn shēng xiè dài ér zēng zǐ tōng guò zhōng zé rèn xìn qì yuē xí xué shù zhè sān gè měi tiān dōu jù tǐ zhí háng de xíng wéi zhǐ biāo jiāng hóng dà de dào dé píng jià gòu jiě wéi kě yǐ tōng guò ròu yǎn hé duì de xíng wéi cān shù tōng guò zhè zhǒng gāo pín cì de nèi xīn sǎo miáo rú jiā fáng zhǐ yí gè rén xiàn rù zì wǒ qī piàn wéi chí jīng shén de jué duì dú lì yǔ fù zú cóng ér jiàn lì jiàn quán dú lì de jūn zǐ rén gé",
+            enExplanation: "It Benchmarks absolute autonomy over one's emotional and existential value. Morality must anchor dynamics—converting abstract values into traceable operational behavior. While average minds lean on validation, the scan forces intrinsic alignment."
+        },
+        {
+            id: "T3",
+            qZh: "曾子的反省包含为人办事、与人交往（社会互动）以及老师传授（教学链接），这展现了论语怎样的教学特色？",
+            qPy: "zēng zǐ de fǎn xǐng bāo hán wèi rén bàn shì yǔ rén jiāo wǎng shè huì hù dòng yǐ jí lǎo shī chuán shòu jiào xué liàn jiē zhè zhǎn xiàn le lùn yǔ zěn yàng de jiào xué tè diǎn",
+            en: "Introspection maps duty, trust, and cognitive review—three operational fields. What pedagogical model does this reflect?",
+            sZh: [
+                "1. 第一步：如果不进行日三省，曾子如何确保老师子曰传授的理论知识能真正落长在自己骨子里？",
+                "2. 第二步：将社会层面的道德履行（忠、信）跟个体学术认知精进（传、习）精简合并在同一个修身项目里，说明了什么？",
+                "3. 第三步：这种多章合一、环环相扣的项目大概念，对于提升我们平台的高级 EdTech 质感有什么 pedagog y 价值？"
+            ],
+            sPy: [
+                "dì yī bù rú guǒ bù jìn háng rì sān xǐng zēng zǐ rú hé què bǎo lǎo shī zǐ yuē chuán shòu de lǐ lùn zhī shi néng zhēn zhèng luò zhǎng zài zì jǐ gǔ zi lǐ",
+                "dì èr bù jiāng shè huì céng miàn de dào dé lǚ háng zhōng xìn gēn gè tǐ xué shù rèn zhī jīng jìn chuán xí jīng jiǎn hé bìng zài tóng yí gè xiū shēn xiàng mù lǐ shuō míng le shén me",
+                "dì sān bù zhè zhǒng duō zhāng hé yī huán huán xiāng kòu de xiàng mù dà gài niàn duì yú tí shēng wǒ men píng tái de gāo jí EdTech zhì gǎn yǒu shén me pedagog y jià zhí"
+            ],
+            sEn: "Step 1: If reflection stops, how does Zengzi ensure that theoretical knowledge directly internalizes into personal wisdom?<br>Step 2: Merging social execution (loyalty, trust) and cognitive lineage (review) into a single operational matrix implies what?<br>Step 3: What pedagogical value does consolidating these multi-chapter Pinyin-aligned behavioral metrics add to the site's profile?<br>",
+            aZh: "曾子的日三省极度极度契合儒家项目式教学 pedagog y：将宏大的道德人格建设项目，构解解成为每天、具体可以执行、履行以及核对的执行标准。忠信是社会履行输入的数据，习是认知精进数据的切磋，只有通过自我灵魂高频扫描校验系统，输入数据才能穿透表面落地的修身实践路径，成为长在骨子里的自我哲学。这种数据咬合咬合咬合非常高级，体现了系统性 Pedagogy 质感。",
+            aPy: "zēng zǐ de rì sān xǐng jí dù jí dù qì hé rú jiā xiàng mù shì jiào xué pedagog y jiāng hóng dà de dào dé rén gé jiàn shè xiàng mù gòu jiě jiě chéng wéi měi tiān jù tǐ kě yǐ zhí háng lǚ háng yǐ jí hé duì de zhí háng biāo zhǔn zhōng xìn shì shè huì lǚ háng shū rù de shù jù xí shì rèn zhī jīng jìn shù jù de qiē cuō zhǐ yǒu tōng guò zì wǒ líng hún gāo pín sǎo miáo xiào yàn xì tǒng shū rù shù jù cái néng chuān tòu biǎo miàn luò dì de xiū shēn shí jiàn lù jìng chéng wéi zhǎng zài gǔ zi lǐ de zì wǒ zhé xué zhè zhǒng shù jù yǎo hé yǎo hé yǎo hé fēi cháng gāo jí tǐ xiàn le xì tǒng xìng Pedagogy zhì gǎn",
+            enExplanation: "Because consolidated behavioral metrics (Pinyin-aligned steps) prevent abstract moralism. The matrix maps social contracts directly to personal knowledge maintenance. Learning inputs data, while introspection OPERATIONALIZES it, enabling unshakeable semantic precision—just like our data structures."
+        }
     ]
 };
 
