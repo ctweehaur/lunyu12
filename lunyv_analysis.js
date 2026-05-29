@@ -20,6 +20,16 @@ const analysisData = {
             textPy: "zài xiàn dài jiào xué fǎ zhōng zhè yī zhāng yī rán sàn fā zhe zhì huì de guāng máng kǒng zǐ shuō de xí zì jué duì bú shì jī xiè xìng de chāo xiě huò sǐ jì yìng bèi kǎo shì tí mù ér shì zhǐ jiāng lǐ lùn tóu rù shí jiàn zhè yǔ xiàn dài jiào yù xué chàng dǎo de xiàng mù shì xué xí yǐ jí shēn dù xué xí gài niàn wán měi yǎo hé zhǐ yǒu jīng lì xué xí yùn yòng bìng qiě zài jiāo liú zhōng zhuàng jī sī wéi xué xí cái huì zhēn zhèng biàn chéng yī jiàn chōng mǎn gāo jí xǐ yuè de jīng shén xiǎng shòu",
             textEn: "In contemporary EdTech application, the concept of 'Xi (习)' aligns directly with experiential and problem-based learning models. It positions studying not as rigid rote memorization, but as an active, project-based social process that generates high-level cognitive engagement."
         }
+    ],
+            chapter_2: [
+        {
+            header: "修身 路径",
+            headerPy: "xiū shēn lù jìng",
+            en: "Path of Self-Cultivation",
+            textZh: "本章 集中 展现了 儒家 学派 极其 严苛的 内省 精神 。 曾子 提出的 三省 包含了 责任 忠 、 诚信 信 与 实践 习 三个 核心 领域 。 忠 关乎 他人 的 托付 ， 信 关乎 社交的 契约 ， 习 关乎 知识 的 传承 。 儒家 认为 ， 完美的 人格 不是 天生的 ， 而是 依赖 每天 对 自我 灵魂 进行 深度 扫描 每一个 细节 从而 逐步 剔除 瑕疵 建立 起来 的 。",
+            textPy: "bàn zhāng jí zhōng zhǎn xiàn le rú jiā xué pài jí qí yán kē de nèi xǐng jīng shén zēng zǐ tí chū de sān xǐng bāo hán le zé rèn zhōng chéng xìn xìn yǔ shí jiàn xí sān gè hé xīn lǐng yù zhōng guān hū tā rén de tuō fù xìn guān hū shè jiāo de qì yuē xí guān hū zhī shi de chuán chéng rú jiā rèn wéi wán měi de rén gé bú shì tiān shēng de ér shì yī lài měi tiān duì zì wǒ líng hún jìn háng shēn dù sǎo miáo měi yí gè xì jié cóng ér zhú bù tì chú xiá cī jiàn lì qǐ lái de",
+            textEn: "This section encapsulates the rigorous introspective methodology of the Confucian school. Master Zeng's tripartite self-examination targets social execution (loyalty), relational integrity (trustworthiness), and cognitive mastery (review), establishing a metric for daily active character adjustments."
+        }
     ]
 };
 
