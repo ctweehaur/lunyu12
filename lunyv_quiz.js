@@ -6,9 +6,8 @@ const quizQuestions = {
     chapter_1: [
         {
             id: 1,
-            text: "文中“学而时习之”的“说”字，是一个通假字。以下关于它的读音与词义分析，最准确的是哪一项？",
-            py: "wén zhōng xué ér shí xí zhī de yuè zì shì yí gè tōng jiǎ zì yǐ xià guān yú tā de dú yīn yǔ cí yì fān xī zuì zhǔn què de shì nǎ yī xiàng",
-            en: "The character '说' in line 1 is an interchangeable character. Which analysis is the most precise?",
+            text: "文中“不亦说乎”的“说”字，是一个通假字。以下关于它的读音与词义分析，最准确的是哪一项？",
+            py: "wén zhōng bú yì yuè hū de yuè zì shì yí gè tōng jiǎ zì yǐ xià guān yú tā de dú yīn yǔ cí yì fēn xī zuì zhǔn què de shì nǎ yī xiàng",            en: "The character '说' in line 1 is an interchangeable character. Which analysis is the most precise?",
             options: [
                 {
                     text: "读 yuè / 通 “悦” / 意思是 愉快 、 高兴",
