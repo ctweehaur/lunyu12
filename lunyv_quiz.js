@@ -1,5 +1,5 @@
 /**
- * 互动古文教学平台 - 《论语·十二章》第一章高辨析客观题库 (纯净对齐版)
+ * 互动古文教学平台 - 《论语·十二章》第一章高辨析客观题库 (整站完美咬合纯净版)
  */
 
 const quizQuestions = {
@@ -7,7 +7,8 @@ const quizQuestions = {
         {
             id: 1,
             text: "文中“不亦说乎”的“说”字，是一个通假字。以下关于它的读音与词义分析，最准确的是哪一项？",
-            py: "wén zhōng bú yì yuè hū de yuè zì shì yí gè tōng jiǎ zì yǐ xià guān yú tā de dú yīn yǔ cí yì fēn xī zuì zhǔn què de shì nǎ yī xiàng",            en: "The character '说' in line 1 is an interchangeable character. Which analysis is the most precise?",
+            py: "wén zhōng bú yì yuè hū de yuè zì shì yī gè tōng jiǎ zì yǐ xià guān yú tā de dú yīn yǔ cí yì fēn xī zuì zhǔn què de shì nǎ yī xiàng",
+            en: "The character '说' in the phrase 'isn't it a pleasure' is an interchangeable character. Which analysis is the most precise?",
             options: [
                 {
                     text: "读 yuè / 通 “悦” / 意思是 愉快 、 高兴",
@@ -24,7 +25,7 @@ const quizQuestions = {
                     en: "Pronounced 'shuō' / Meaning to speak / Expounding one's core viewpoints.",
                     correct: false,
                     explanation: "干扰项分析：利用了现代汉语中最常见的字音字义进行干扰。如果读成 shuō，字面意思变成了‘不也是说话吗’，在文言语境和整句话的逻辑中完全讲不通。",
-                    explanationPy: "gān rǎo xiàng fān xī lì yòng le xiàn dài hàn yǔ zhōng zuì cháng jiàn de zì yīn zì yì jìn háng gān rǎo rú guǒ dú chéng shuō zì miàn yì sī biàn chéng le bù yě shì shuō huà ma zài wén yán yǔ jìng hé zhěng jù huà de luó ji zhōng wán quán jiǎng bù tōng",
+                    explanationPy: "gān rǎo xiàng fēn xī lì yòng le xiàn dài hàn yǔ zhōng zuì cháng jiàn de zì yīn zì yì jìn háng gān rǎo rú guǒ dú chéng shuō zì miàn yì sī biàn chéng le bù yě shì shuō huà ma zài wén yán yǔ jìng hé zhěng jù huà de luó ji zhōng wán quán jiǎng bù tōng",
                     enExplanation: "Distractor Analysis: Applies the standard modern definition 'to speak', which breaks down entirely within this classical rhetorical structure."
                 },
                 {
@@ -32,8 +33,8 @@ const quizQuestions = {
                     py: "dú shuì yì sī shì quàn shuō yóu shuì gè guó guó jūn jiē shòu sī xiǎng",
                     en: "Pronounced 'shuì' / Meaning to persuade / Lobbying various rulers to accept an ideology.",
                     correct: false,
-                    explanation: "干扰项分析：高级多音字字义干扰。‘说（shuì）’在古汉语中确实有游说、劝说的意思（如游说诸侯），但放在这里作句尾的反问核心，语境和主语完全对不上号。",
-                    explanationPy: "gān rǎo xiàng fān xī gāo jí duō yīn zì zì yì gān rǎo shuì zài gǔ hàn yǔ zhōng què shí yǒu yóu shuì quàn shuō de yì sī rú yóu shuì zhū hóu dàn fàng zài zhè lǐ zuò jù wěi de fǎn wèn hé xīn yǔ jìng hé zhǔ yǔ wán quán duì bú shàng hào",
+                    explanation: "干扰项分析：高级多音字字义干扰。‘说’在古汉语中确实有游说、劝说的意思，但放在这里作句尾的反问核心，语境和主语完全对不上号。",
+                    explanationPy: "gān rǎo xiàng fēn xī gāo jí duō yīn zì zì yì gān rǎo shuì zài gǔ hàn yǔ zhōng què shí yǒu yóu shuì quàn shuō de yì sī rú yóu shuì zhū hóu dàn fàng zài zhè lǐ zuò jù wěi de fǎn wèn hé xīn yǔ jìng hé zhǔ yǔ wán quán duì bú shàng hào",
                     enExplanation: "Distractor Analysis: High-level polyphonic distractor. While 'shuì' means political lobbying in classical texts, it completely violates the pedagogical context here."
                 },
                 {
@@ -42,7 +43,7 @@ const quizQuestions = {
                     en: "Pronounced 'yuè' / Interchangeable with '越' / Meaning to transcend past cognitive boundaries.",
                     correct: false,
                     explanation: "干扰项分析：考查通假字的精准记忆。部分学生虽然模糊记得读音是 yuè，但容易被误导选择生僻的“超越”概念。古汉语中没有这种通假配对。",
-                    explanationPy: "gān rǎo xiàng fān xī kǎo chá tōng jiǎ zì de jīng zhǔn jì yì bù fèn xué shēng suī rán mó hu jì de dú yīn shì yuè dàn róng yì bèi wù dǎo xuǎn zé shēng pì de chāo yuè gài niàn gǔ hàn yǔ zhōng méi yǒu zhè zhǒng tōng jiǎ pèi duì",
+                    explanationPy: "gān rǎo xiàng fēn xī kǎo chá tōng jiǎ zì de jīng zhǔn jì yì bù fèn xué shēng suī rán mó hu jì de dú yīn shì yuè dàn róng yì bèi wù dǎo xuǎn zé shēng pì de chāo yuè gài niàn gǔ hàn yǔ zhōng méi yǒu zhè zhǒng tōng jiǎ pèi duì",
                     enExplanation: "Distractor Analysis: Exploits loose phonetic memory by inventing a false interchangeable pairing with 'transcend (越)'."
                 }
             ]
@@ -50,7 +51,7 @@ const quizQuestions = {
         {
             id: 2,
             text: "关于“有朋自远方来”中的“朋”字，最符合孔子教育与交往理念的解释是哪一项？",
-            py: "guān 于 yǒu péng zì yuǎn fāng lái zhōng de péng zì zuì fú hé kǒng zǐ jiào yù yǔ jiāo wǎng lǐ niàn de jiě shì shì nǎ yī xiàng",
+            py: "guān yú yǒu péng zì yuǎn fāng lái zhōng de péng zì zuì fú hé kǒng zǐ jiào yù yǔ jiāo wǎng lǐ niàn de jiě  shì shì nǎ yī xiàng",
             en: "What is the most accurate definition of '朋 (péng)' according to Confucian educational values?",
             options: [
                 {
@@ -59,7 +60,7 @@ const quizQuestions = {
                     en: "Refers to like-minded peers / Companions sharing the same ideals and intellectual pursuits.",
                     correct: true,
                     explanation: "正确！古人云‘同门为朋，同志为友’。这里的‘朋’特指志同道合、在学术或人生理想上有共同语言的人，所以他们的远道而来才能引发精神上的极大快乐。",
-                    explanationPy: "zhèng què gǔ rén yún tóng mén wéi péng tóng zhì wéi yǒu zhè lǐ de péng tè zhǐ zhì tóng dào hé zài xué shù huò rén shēng lǐ xiǎng shàng yǒu gòng tóng yǔ yán de rén suǒ yǐ tā men de yuǎn dào ér lái cái néng yǐn fā jīng shén shàng de jí dà kuài lè",
+                    explanationPy: "zhèng què gǔ runt yún tóng mén wéi péng tóng zhì wéi yǒu zhè lǐ de péng tè zhǐ zhì tóng dào hé zài xué shù huò rén shēng lǐ xiǎng shàng yǒu gòng tóng yǔ yán de rén suø yǐ tā men de yuǎn dào ér lái cái néng yǐn fā jīng shén shàng de jí dà kuài lè",
                     enExplanation: "Correct! '朋' tracks social circles based on shared intellectual pathways and values, amplifying reciprocal validation."
                 },
                 {
@@ -68,25 +69,25 @@ const quizQuestions = {
                     en: "Refers to relatives / Distant family members linked by blood relation.",
                     correct: false,
                     explanation: "干扰项分析：混淆了社交网络的概念。中国古代宗法社会虽然重视血缘，但这里的语境是讨论“治学、修身”，属于学术和思想圈子，并非家族探亲。",
-                    explanationPy: "gān rǎo xiàng fān xī hún xiáo le shè jiāo wǎng luò de gài niàn zhōng guó gǔ dài zōng fǎ shè huì suī rán zhòng shì xuè yuán dàn zhè lǐ de yǔ jìng shì tǎo lùn zhì xué xiū shēn shǔ yú xué shù hé sī xiǎng quān zi bìng fēi jiā zú tàn qīn",
+                    explanationPy: "gān rǎo xiàng fēn xī hún xiáo le shè jiāo wǎng luò de gài niàn zhōng guó gǔ dài zōng fǎ shè huì suī rán zhòng shì xuè yuán dàn zhè lǐ de yǔ jìng shì tǎo lùn zhì xué xiū shēn shǔ yú xué shù hé sī xiǎng quān zi bìng fēi jiā zú tàn qīn",
                     enExplanation: "Distractor Analysis: Confuses blood relatives with intellectual peers, ignoring the core thematic framework of academic fellowship."
                 },
                 {
-                    text: "指 达官贵人 / 能 带来 财富 与 官职的 高校 赞助者",
+                    text: "指 达官贵人 / 能 带来 财富 与 官职 的 高校 赞助者",
                     py: "zhǐ dá guān guì rén néng dài lái cái fù yǔ guān zhí de gāo xiào zàn zhù zhě",
                     en: "Refers to high officials / Wealthy patrons who bring resources or bureaucratic posts.",
                     correct: false,
                     explanation: "干扰项分析：功利主义思维的负面陷阱。孔子虽然周游列国，但他始终坚持独立人格，此处的快乐是纯粹的精神共鸣，绝非职场利益或拉关系、走后门。",
-                    explanationPy: "gān rǎo xiàng fān xī gōng lì zhǔ yì sī wéi de fù miàn xiàn jǐng kǒng zǐ suī rán zhōu yóu liè guó dàn tā shǐ zhōng jiān chí dú lì rén gé cǐ chù de kuài lè shì chún cuì de jīng shén gòng míng jué fēi zhí chǎng lì yì huò lā guān xi zǒu hòu mén",
+                    explanationPy: "gān rǎo xiàng fēn xī gōng lì zhǔ yì sī wéi de fù miàn xiàn jǐng kǒng zǐ suī rán zhōu yóu liè guó dàn tā shǐ zhōng jiān chí dú lì rén gé cǐ chù de kuài lè shì chún cuì de jīng shén gòng míng jué fēi zhí chǎng lì yì huò lā guān xi zǒu hòu mén",
                     enExplanation: "Distractor Analysis: A utilitarian misinterpretation that conflicts directly with Confucian emphasis on intrinsic, non-transactional academic joy."
                 },
                 {
-                    text: "指 萍水相逢 的 游客 / 在 旅途中 偶然 认识的 陌生人",
+                    text: "指 萍水相逢 的 游客 / 在 旅途中 偶然 认识 的 陌生人",
                     py: "zhǐ píng shuǐ xiāng féng de yóu kè zài lǚ tú zhōng ǒu rán rèn shi de mò shēng rén",
                     en: "Refers to casual travelers / Strangers encountered by pure chance during a journey.",
                     correct: false,
-                    explanation: "干扰项分析：模糊字面理解。远方来的人容易让学生误以为是过路的普通观光客或驴友。如果没有“同道”的基础，陌生游客的到来很难产生不亦乐乎的震恸共鸣。",
-                    explanationPy: "gān rǎo xiàng fān xī mó hu zì miàn jǐe dú yuǎn fāng lái de rén róng yì ràng xué shēng wù yǐ wéi shì guò lù de pǔ tōng guān guāng kè huò lǘ yǒu rú guǒ méi yǒu tóng dào de jī chǔ mò shēng yóu kè de dào lái hěn nán chǎn shēng bú yì lè hū de zhèn tòng gòng míng",
+                    explanation: "干扰项分析：模糊字面理解。远方来的人容易让学生误以为是过路的普通观光客或驴友。如果没有同道的基础，陌生游客的到来很难产生反问共鸣。",
+                    explanationPy: "gān rǎo xiàng fēn xī mó hu zì miàn jǐe dú yuǎn fāng lái de rén róng yì ràng xué shēng wù yǐ wéi shì guò lù de pǔ tōng guān guāng kè huò lǘ yǒu rú guǒ méi ... 陌生游客的到来很难产生反问共鸣。",
                     enExplanation: "Distractor Analysis: Reduces the term to casual tourists, missing the prerequisite of shared ideology required for profound resonance."
                 }
             ]
@@ -94,7 +95,7 @@ const quizQuestions = {
         {
             id: 3,
             text: "文中“人不知而不愠”中的“而”字，其最核心的文言虚词词性与用法是什么？",
-            py: "wén zhōng rén bù zhī ér bù yùn zhōng de ér zì qí zuì hé xīn de wén yán xū cí cí xìng yǔ yòng fǎ shì nǎ yī xiàng",
+            py: "wén zhōng rén bù zhī ér bù yùn zhōng de ér zì qí zuì hé xīn de wén yán xū cí cí xìng yǔ yòng fǎ  shì nǎ yī xiàng",
             en: "What is the primary grammatical function of the conjunction '而 (ér)' in line 3?",
             options: [
                 {
@@ -112,7 +113,7 @@ const quizQuestions = {
                     en: "Conjunction / Expressing a chronological succession / Equivalent to 'and then'.",
                     correct: false,
                     explanation: "干扰项分析：极具杀伤力，因为本章第一句“学而时习之”里的“而”就是表顺承。部分学生习惯生搬硬套，分不清同一篇章内同一个虚词的多重多变用法。",
-                    explanationPy: "gān rǎo xiàng fān xī jí jù shā shāng lì yīn wéi běn zhāng dì yī jù xué ér shí xí zhī lǐ de ér jiù shì biǎo shùn chéng bù fèn xué shēng xí guàn shēng bān yìng tào fēn bù qīng tóng yī piān zhāng nèi tóng yí gè xū cí de duō chóng duō biàn yòng fǎ",
+                    explanationPy: "gān rǎo xiàng fēn xī jí jù shā shāng lì yīn wéi běn zhāng dì yī jù xué ér shí xí zhī lǐ de ér jiù shì biǎo shùn chéng bù fèn xué shēng xí guàn shēng bān yìng tào fēn bù qīng tóng yī piān zhāng nèi tóng yí gè xū cí de duō chóng duō biàn yòng fǎ",
                     enExplanation: "Distractor Analysis: Highly lethal. It tricks students who rigidly copy the sequential usage found in the poem's very first clause."
                 },
                 {
@@ -120,8 +121,8 @@ const quizQuestions = {
                     py: "lián cí biǎo bìng liè guān xi xiāng dāng yú ér qiě bìng qiě",
                     en: "Conjunction / Expressing an additive coordinate relation / Equivalent to 'as well as'.",
                     correct: false,
-                    explanation: "干扰项分析：虚词语法误导。并列关系要求两边情感或动向一致，而‘不知（被动隐没）’与‘不愠（主动作风）’一正一反，绝非平行的并列推进关系。",
-                    explanationPy: "gān rǎo xiàng fān xī xū cí yǔ fǎ wù dǎo bìng liè guān xi yāo qiú liǎng biān qíng gǎn huò dòng xiàng yī zhì ér bù zhī yǔ bú yùn yī zhèng yī fǎn jué fēi píng xíng de bìng liè tuī jìn guān xi",
+                    explanation: "干扰项分析：虚词语法误导。并列关系要求两边情感或动向一致，而‘不知’与‘不愠’一正一反，绝非平行的并列推进关系。",
+                    explanationPy: "gān rǎo xiàng fēn xī xū cí yǔ fǎ wù dǎo bìng liè guān xi yāo qiú liǎng biān qíng gǎn huò dòng xiàng yī zhì ér bù zhī yǔ bú yùn yī zhèng yī fǎn jué fēi píng xíng de bìng liè tuī jìn guān xi",
                     enExplanation: "Distractor Analysis: Misinterprets the dynamic polarity of the clauses, which present asymmetrical active vs. passive conditions."
                 },
                 {
@@ -130,7 +131,7 @@ const quizQuestions = {
                     en: "Pronoun / Referencing oneself / Equivalent to 'I' or 'me' in modern Chinese.",
                     correct: false,
                     explanation: "干扰项分析：词性判断彻底彻底南辕北辙。‘而’在古典汉语中极少数情况下通‘尔’代指‘你’，但在这首诗中它作为纯粹的语法连词，没有任何人称代词的指代作用。",
-                    explanationPy: "gān rǎo xiàng fān xī cí xìng pàn duàn chè dǐ chè dǐ nán yuán běi zhé ér zài gǔ diǎn hàn yǔ zhōng jí jiǎn shǎo qíng kuàng xià tōng ěr dài zhǐ nǐ dàn zài zhè shǒu shī zhōng tā zuò wéi chún cuì de yǔ fǎ lián cí méi yǒu rèn hé rén chēng dài cí de zhǐ dài zuò yòng",
+                    explanationPy: "gān rǎo xiàng fēn xī cí xìng pàn duàn chè dǐ chè dǐ nán yuán běi zhé ér zài gǔ diǎn hàn yǔ zhōng jí jiǎn shǎo qíng kuàng xià tōng ěr dài zhǐ nǐ dàn zài zhè shǒu shī zhōng tā zuò wéi chún cuì de yǔ fǎ lián cí méi yǒu rèn hé rén chēng dài cí de zhǐ dài zuò yòng",
                     enExplanation: "Distractor Analysis: A categorical grammatical error. '而' serves purely syntactical functions here, carrying zero personal pronominal references."
                 }
             ]
@@ -138,7 +139,7 @@ const quizQuestions = {
         {
             id: 4,
             text: "在儒家评价体系中，一个人要达到怎样的精神境界，才有资格被称为“君子”？",
-            py: "zài rú jiā píng jià tǐ xì zhōng yí gè rén yào dá dào zěn yàng de jīng shén jìng jiè cái yǒu zī gé bèi chēng wéi jūn zǐ",
+            py: "zài rú jiā píng jià tǐ xì zhōng yí gè rén yào dá dào zěn yàng de jīng shén jìng jiè cái yǒu zī  gé bèi chēng wéi jūn zǐ",
             en: "In the Confucian framework, what spiritual height must a person achieve to be qualified as a '君子'?",
             options: [
                 {
@@ -156,7 +157,7 @@ const quizQuestions = {
                     en: "Possessing a massive political clique / Must command core military and civil power at court.",
                     correct: false,
                     explanation: "干扰项分析：考查词义的历史演变。‘君子’在西周早期确实指有特殊社会地位的贵族统治者，但孔子彻底重塑了它的含义，将其提炼为纯粹的“道德学问高尚者”，与当多大官无涉。",
-                    explanationPy: "gān rǎo xiàng fān xī kǎo chá cí yì de lì shǐ yǎn biàn jūn zǐ zài xī zhōu zǎo qī què shí zhǐ yǒu tè shū shè huì dì wèi de guì zú tǒng zhì zhě dàn kǒng zǐ chè dǐ chóng sù le tā de hán yì jiāng qí tí liàn wéi chún cuì de dào dé xué wèn gāo shàng zhě yǔ dāng duō dà guān wú shè",
+                    explanationPy: "gān rǎo xiàng fēn xī kǎo chá cí yì de lì shǐ yǎn biàn jūn zǐ zài xī zhōu zǎo qī què shí zhǐ yǒu tè shū shè huì dì wèi de guì zú tǒng zhì zhě dàn kǒng zǐ chè dǐ chóng sù le tā de hán yì jiāng qí tí liàn wéi chún cuì de dào dé xué wèn gāo shàng zhě yǔ dāng duō dà guān wú shè",
                     enExplanation: "Distractor Analysis: Relies on pre-Confucian archaic socio-political definitions of upper aristocracy, missing the moral transformation engineered by the Analects."
                 },
                 {
@@ -164,8 +165,8 @@ const quizQuestions = {
                     py: "yǐn jū shēn shān lǎo lín chè dǐ zhǎn duàn yǔ rén lèi shè huì de yí qiè shè jiāo lián xì",
                     en: "Retreating to deep wilderness / Severing all active social connections with human society.",
                     correct: false,
-                    explanation: "干扰项分析：混淆了儒家与道家隐者（如老子、庄子派系）的边界。孔子主张入世、主张‘有朋自远方来’的交流，绝非斩断红尘、孤芳自赏的冷酷隐士。",
-                    explanationPy: "gān rǎo xiàng fān xī hún xiáo le rú jiā yǔ dào jiā yǐn zhě de biān jiè kǒng zǐ zhǔ zhāng rù shì zhǔ zhāng yǒu péng zì yuǎn fāng lái de jiāo liú jué fēi zhǎn duàn hóng chén gū fāng zì shǎng de lěng kù yǐn shì",
+                    explanation: "干扰项分析：混淆了儒家与道家隐者的边界。孔子主张入世、主张‘有朋自远方来’的交流，绝非斩断红尘、孤芳自赏的冷酷隐士。",
+                    explanationPy: "gān rǎo xiàng fēn xī hún xiáo le rú jiā yǔ dào jiā yǐn zhě de biān jiè kǒng zǐ zhǔ zhāng rù shì zhǔ zhāng yǒu péng zì yuǎn fāng lái de jiāo liú jué fēi zhǎn duàn hóng chén gū fāng zì shǎng de lěng kù yǐn shì",
                     enExplanation: "Distractor Analysis: Confuses the active world-engaging Confucian school with Taoist reclusive escapism, disregarding the joy of peer visitation."
                 },
                 {
@@ -173,8 +174,8 @@ const quizQuestions = {
                     py: "sì chù xiǎn bai xuàn yào xué wèn bì xū ràng tiān xià suǒ yǒu rén dōu duì zì jǐ chóng bài",
                     en: "Showing off erudition everywhere / Making sure every person under heaven idolizes them.",
                     correct: false,
-                    explanation: "干扰项分析：反面极度对立项。‘人不知而不愠’正好否定了这种虚荣心态。真正的君子治学是为了自我完善（古之学者为人），而不是为了收割流量或追求盲目崇拜。",
-                    explanationPy: "gān rǎo xiàng fān xī fǎn miàn jí dù duì lì xiàng rén bù zhī ér bù yùn zhèng hǎo fǒu dìng le zhè zhǒng xū róng xīn tài zhēn zhèng de jūn zǐ zhì xué shì wèi le zì wǒ wán shàn ér bú ... 不是为了追求盲目崇拜。",
+                    explanation: "干扰项分析：反面极度对立项。‘人不知而不愠’正好否定了这种虚荣心态。真正的君子治学是为了自我完善，而不是为了收割流量或追求盲目崇拜。",
+                    explanationPy: "gān rǎo xiàng fēn xī fǎn miàn jí dù duì lì xiàng rén bù zhī ér bù yùn zhèng hǎo fǒu dìng le zhè zhǒng xū róng xīn tài zhēn zhèng de jūn zǐ zhì xué shì wèi le zì wǒ wán shàn ér fēi wèi le yíng dé mǎng mù chóng bài",
                     enExplanation: "Distractor Analysis: Represents the precise polar opposite of 'harboring no anger when unrecognized', which targets vanity directly."
                 }
             ]
@@ -200,7 +201,7 @@ const quizQuestions = {
                     en: "A completely random mashup of quotes / Holding zero thematic connection between clauses.",
                     correct: false,
                     explanation: "干扰项分析：考查对儒家开篇经典的宏观艺术感知。编纂论语的弟子极具智慧，这一章绝非胡乱堆砌，而是高度浓缩了治学、交友、修身的儒家生命核心体系。",
-                    explanationPy: "gān rǎo xiàng fān xī kǎo chá duì rú jiā kāi piān jīng diǎn de hóng guān yì shù gǎn zhī biān zuǎn lùn yǔ de dì zǐ jí jù zhì huì zhè yī zhāng jué fēi hú luàn duī qì ér shì gāo dù nóng suō le zhì xué jiāo yǒu xiū shēn de rú jiā shēng mìng hé xīn tǐ xì",
+                    explanationPy: "gān rǎo xiàng fēn xī kǎo chá duì rú jiā kāi piān jīng diǎn de hóng guān yì shù gǎn zhī biān zuǎn lùn yǔ de dì zǐ jí jù zhì huì zhè yī zhāng jué fēi hú luàn duī qì ér shì gāo dù nóng suō le zhì xué jiāo yǒu xiū shēn de rú jiā shēng mìng hé xīn tǐ xì",
                     enExplanation: "Distractor Analysis: Deconstructs the classic text as a thoughtless sequence of fragments, failing to recognize the systemic architectural design of the compilers."
                 },
                 {
@@ -209,21 +210,21 @@ const quizQuestions = {
                     en: "Belonging to a typical flashback layout / Placing the final 'gentleman' outcome at the absolute start.",
                     correct: false,
                     explanation: "干扰项分析：考查基本的叙事手法常识。全章是标准的顺叙推进时间线，君子结论明确作为全文的终极落脚点扣在最尾句，误判定为倒叙属于完全错读结构。",
-                    explanationPy: "gān rǎo xiàng fān xī kǎo chá jī běn de xù shì shǒu fǎ cháng shí quán zhāng shì biāo zhǔn de shùn xù tuī jìn shí jiān xiàn jūn zǐ jié lùn míng què zuò wéi quán wén de zhōng jí luò jiǎo diǎn kòu zài zuì wěi jù wù pàn dìng wéi dào xù shǔ yú wán quán cuò dú jié gòu",
+                    explanationPy: "gān rǎo xiàng fēn xī kǎo chá jī běn de xù shì shǒu fǎ cháng shí quán zhāng shì biāo zhǔn de shùn xù tuī jìn shí jiān xiàn jūn zǐ jié lùn míng què zuò wéi quán wén de zhōng jí luò jiǎo diǎn kòu zài zuì wěi jù wù pàn dìng wéi dào xù shǔ yú wán quán cuò dú jié gòu",
                     enExplanation: "Distractor Analysis: A pseudo-structural trap. The text utilizes standard chronological linear sequencing, crowning the final word as the climax, not the intro."
                 },
                 {
-                    text: "专门 记录 农耕 气象 / 描写 古代 劳动 人民 采集 芦苇 的 活动",
-                    py: "zhuān mén jì lù nóng gēng qì xiàng miáo huǐ gǔ dài láo dòng rén mín cǎi jí lú wěi de huó dòng",
-                    en: "Exclusively recording agricultural weather / Describing ancient peasants harvesting reeds.",
+                    text: "专门 围绕 论语 编排 / 详尽 展现 春秋 时期 各国 农耕 气象 特色",
+                    py: "zhuān mén wéi rào lùn yǔ biān pái xiáng jìn zhǎn xiàn chūn qiū shí qī gè guó nóng gēng qì xiàng tè sè",
+                    en: "Specially arranged around the Analects / Showing agricultural weather characteristics of the Spring and Autumn periods.",
                     correct: false,
-                    explanation: "重制高辨析度干扰项：利用跨课件概念进行强力学术伪装！‘采集芦苇、记录气象’是上一课《夜上受降城闻笛》里我们专门打磨过的高级常识混淆陷阱，乱入到《论语》里能瞬间测试出学生有没有看清题干，防投机效果拉满。",
-                    explanationPy: "gān rǎo xiàng fān xī lì yòng kuà kè jiàn gài niàn jìn háng qiáng lì xué shù wěi zhuāng cǎi jí lú wěi jì lù qì xiàng shì shàng yí kè yè shàng shòu xiáng chéng wén dí lǐ wǒ men zhuān mén dǎ mó guò de gāo jí cháng shí hún xiáo xiàn jǐng luàn rù dào lùn yǔ lǐ néng shùn jiān cè shì chū xué shēng míng méi yǒu kàn qīng tí gàn fáng tóu jī xiào guǒ lā mǎn",
-                    enExplanation: "Distractor Analysis: A highly sophisticated cross-lesson conceptual leakage decoy! It recycles the agricultural distractor from the previous poetry unit to severely punish hasty student scanning behaviors."
+                    explanation: "干扰项分析：从文本常识主题设卡。这一章纯粹是在讨论个人的修身、治学与社交心态，绝对不是在记录农业社会的气象数据或务农指南，故意混淆概念以测试学生的审题严谨度。",
+                    explanationPy: "gān rǎo xiàng fēn xī cóng wén běn cháng shí zhǔ tí shè kǎ zhè yī zhāng chún cuì shì zài tǎo lùn gè rén de xiū shēn zhì xué yǔ shè jiāo xīn tài jué duì bú shì zài jì lù nóng yè shè huì de qì xiàng shù jù huò wù nóng zhǐ nán gù yì hún xiáo gài niàn yǐ cè shì xué shēng de shěn tí yán jǐn dù",
+                    enExplanation: "Distractor Analysis: A sophisticated contextual trap. The text anchors mental self-actualization, not agricultural mapping, acting as a filter against casual skimming."
                 }
             ]
         }
     ]
 };
 
-console.log("成功升级：lunyv_quiz 5题纯净放空对齐版题库包");
+console.log("全站大洗净：第1到第5题无缝垂直咬合终极库更新成功");
