@@ -19,6 +19,23 @@ const translationData = {
             py: "bié rén bù liǎo jiě shèn zhì wù jiě le zì jǐ zì jǐ nèi xīn què bù gǎn dào yuàn hèn shēng qì bù yě shì yí gè yǒu gāo shàng dào dé xiū yǎng de jūn zǐ ma",
             en: "When others fail to understand or appreciate your talents, yet you harbor no bitterness or anger within, isn't that indeed the mark of a noble gentleman?"
         }
+    ],
+        chapter_2: [
+        {
+            zh: "曾子 说 我 每天 多次 反省 自己 ： 替 别人 办事 是不是 尽心竭力 了 呢 ？",
+            py: "zēng zǐ yuē wǒ měi tiān duō cì fǎn xǐng zì jǐ tì bié rén bàn shì shì bú shì jìn xīn jié lì le ne",
+            en: "Zengzi said: 'I examine myself multiple times every day: Have I done my utmost when transacting business for others?'"
+        },
+        {
+            zh: "跟 朋友 交往 是不是 做到 诚实 守信 了 呢 ？",
+            py: "gēn péng you jiāo wǎng shì bú shì zuò dào chéng shí shǒu xìn le ne",
+            en: "'In my interactions with friends, have I been completely trustworthy and sincere?'"
+        },
+        {
+            zh: "老师 传授的 学业 知识 是不是 认真 温习 复习 并 实践 练习了 呢 ？",
+            py: "lǎo shī chuán shòu de xué yè zhī shi shì bú shì rèn zhēn wēn xí fù xí bìng shí jiàn liàn xí le ne",
+            en: "'Have I thoroughly reviewed and practiced the teachings passed down by my master?'"
+        }
     ]
 };
 
