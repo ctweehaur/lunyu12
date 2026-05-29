@@ -1,5 +1,5 @@
 /**
- * 互动古文教学平台 - 《论语·十二章》第一章简答题数据包 (5题全引导·完美对齐版)
+ * 互动古文教学平台 - 《论语·十二章》简答题数据包 (多章合一纯净放空版)
  */
 
 const shortQData = {
@@ -13,6 +13,11 @@ const shortQData = {
                 "1. 第一步：日常生活中，我们‘学到了某个公式或电脑技术’，如果不去动手操作会有什么后果？",
                 "2. 第二步：孔子眼中的读书，仅仅是坐在书斋里死记硬背、应付统考流水线吗？",
                 "3. 第三步：将理论知识在适当的时候投入到实际生活中去印证、去纠正，对完善自己的人格有什么关键意义？"
+            ],
+            sPy: [
+                "dì yī bù rì cháng shēng huó zhōng wǒ men xué dào le mǒu gè gōng ... 结果",
+                "dì èr bù kǒng zǐ yǎn zhōng de dú shū jǐn jǐn... 流水线吗",
+                "dì sān bù jiāng lǐ lùn... 关键意义？"
             ],
             sPy: [
                 "dì yī bù rì cháng shēng huó zhōng wǒ men xué dào le mǒu gè gōng shì huò diàn nǎo jì shù rú guǒ bú qù dòng shǒu cāo zuò huì yǒu shén me hòu guǒ",
@@ -61,7 +66,7 @@ const shortQData = {
             ],
             sEn: "Step 1: When our talents or outputs fail to capture direct validation from functional depts or managers, what is our instinct?<br>Step 2: Is a scholar's ultimate goal to reap external applause, or to achieve internal moral completeness?<br>Step 3: Does 'no anger' reveal a fragile mind begging for attention, or a fortress soul so rich it ignores outside evaluation?",
             aZh: "“不愠”展现了君子极其坚定、独立且富足的精神世界。普通人往往由于虚荣心，极度极度依赖外在的赞美和认可。而真正的君子治学是为了自我人格的圆满，他不需要依附于任何外界的掌声来证明自己。面对别人的埋没、误解甚至冷落，他内心坦荡、宠辱不惊，不怨天，不尤人。这种强大的情绪管理和内心底气，正是道德修养达到最高境界的“君子”标志。",
-            aPy: "bú yùn zhǎn xiàn le jūn zǐ jí qí jiān dìng dú lì qiě fù zú de jīng shén shì jiè pǔ tōng rén wǎng wǎng yóu yú xū róng xīn jí dù jí dù yī fù yú wài zài de zàn měi hé rèn kě ér zhēn zhèng de jūn zǐ zhì xué shì wèi le zì wǒ rén gé de yuán mǎn tā bù xū yào yī fù yú rèn hé wài jiè de zhǎng shēng lái zhèng míng zì jǐ miàn duì bié rén de mái mò wù jiě shèn zhì lěng luò tā nèi xīn tǎn dàng chǒng rǔ bù jīng bù yuàn tiān bù yóu rén zhè zhǒng qiáng dà de qíng xù guǎn lǐ hé nèi xīn dǐ qì zhèng shì dào dé xiū yǎng dá dào zuì gāo jìng jiè de jūn zǐ biāo zhì",
+            aPy: "bú yùn zhǎn xiàn le jūn zǐ jí qí jiān dìng dú lì qiě fù zú de jīng shén shì jiè pǔ tōng rén wǎng wǎng yóu yú xū róng xīn jí dù jí dù yī fù yú wài zài de zàn měi hé rèn kě ér zhēn zhèng de jūn zǐ zhì xué shì wèi le zì wǒ rén gé de yuán mǎn tā bù xū yào yī lài wài jiè de zhǎng shēng lái zhèng míng zì jǐ miàn duì bié rén de mái mò wù jiě shèn zhì lěng luò tā nèi xīn tǎn dàng chǒng rǔ bù jīng bù yuàn tiān bù yóu rén zhè zhǒng qiáng dà de qíng xù guǎn lǐ hé nèi xīn dǐ qì zhèng shì dào dé xiū yǎng dá dào zuì gāo jìng jiè de jūn zǐ biāo zhì",
             aEn: "It benchmarks absolute autonomy over one's emotional and existential value. While average minds lean on validation, a gentleman studies for intrinsic alignment. Being hidden or misread fails to derail his composure, verifying an impregnable inner universe."
         },
         {
@@ -72,7 +77,7 @@ const shortQData = {
             sZh: [
                 "1. 第一步：‘说’是一种属于个人在孤独修行中、通过个人实践获得的什么样的内心静静喜悦？",
                 "2. 第二步：‘乐’是由内走向外，在遇到志同道合的高级圈子时爆发出的什么样的公开快乐？",
-                "3. 第三步：最后‘不愠’则是在面对外界全面冷落时，灵魂最深处达到的什么终极淡定境界？"
+                "3. 第三步：最后‘不愠’则是在面对外界全面冷落时，灵魂最深处达达到什么终极淡定境界？"
             ],
             sPy: [
                 "dì yī bù yuè shì yī zhǒng shǔ yú gè rén zài gū dú xiū háng zhōng tōng guò gè rén shí jiàn huò dé de zěn yàng de nèi xīn jìng jìng xǐ yuè",
@@ -104,8 +109,9 @@ const shortQData = {
             aPy: "yīn wèi duō zhāng hé yī jí dà dì qì hé le rú jiā sī xiǎng de xì tǒng xìng yǔ wán zhěng xìng lùn yǔ shí èr zhāng zì zì zhū jī zài bù tóng zhāng jié zhōng hù wéi fā míng qián hòu hū yìng rú hòu miàn hái huì duō cì tǎo lùn dào jūn zǐ hé xué rú guǒ zuò chéng shí èr gè wǎng yè huì gē liè nèi róng qiě jiā zài jí dù yōng zhǒng tōng guò tóng yí gè zhǔ wǎng yè de guān kǎ wēi tiáo huàn dǐ bù jǐn chuàng zào le yóu xì chuǎng guān shì de liú chàng jiào xué tǐ yàn gèng zài jì shù shàng chè dǐ guī bì le  kè hù duān nèi qiàn duō lián jiē de jiā zài bái píng yǔ zhé teng zuì dà huà le yòng hù tǐ yàn",
             aEn: "Because consolidated data structures preserve the cohesive nature of the worldview. The 12 components establish continuous thematic loops; partitioning them breeds cognitive friction. Shuffling them dynamically within a unified view enhances engagement and eliminates mobile iframe whiteouts entirely."
         }
-    ],
-chapter_2: [
+    ], // 🎯 核心修复点 1：第一章数组在这里正常结束并用逗号隔开
+
+    chapter_2: [ // 🚀 核心修复点 2：第二章作为同一个大对象下的键值对，完美并列排布！
         {
             id: "T1",
             qZh: "曾子为什么要通过“为人谋”、“与朋友交”、“传不习”这三个极为具体的日常生活细节来反省自己？",
@@ -122,13 +128,13 @@ chapter_2: [
                 "dì sān bù cóng zuì wēi xiǎo zuì jù tǐ de shēn biān xiǎo shì zuò qǐ duì yú wǒ men jiàn lì jiǎo tà shí dì de jiàn quán rén gé yǒu shén me guān jiàn shí jiàn jià zhí"
             ],
             sEn: "Step 1: If a person simply asks general questions like 'am I a good person?', is such abstract reflection easily actionable?<br>Step 2: Transacting tasks (loyalty), engaging peers (trust), and handling knowledge (review)—which core pillars of daily life do these encompass?<br>Step 3: What practical value does tracking small, explicit behaviors hold for constructing authentic Confucian integrity?",
-            aZh: "因为儒家学派的修身从来不是悬空的口号，而是必须扎根于具体生活。曾子挑选的这三个核心细节，精准覆盖了人际交往和个人治学的三个重大维度：‘忠’处理的是替人办事的责任，‘信’处理的是与朋友交往的诚实信用，‘习’处理的是个体对老师学业知识的温习传承。通过将宏大的道德评价拆解为每天都能清点、核对的具体行为，才能防止自我欺骗，真正让道德修养落地生根。",
+            aZh: "因为儒家学派的修身从来不是悬空的口号，而是必须扎根于具体生活。曾子挑选的这三个核心细节，精准覆盖了人际交往和个人治学三个重大维度：‘忠’处理的是替人办事的责任，‘信’处理的是与朋友交往的诚实信用，‘习’处理的是个体对老师学业知识的温习传承。通过将宏大的道德评价拆解为每天都能清点、核对的具体行为，才能防止自我欺骗，真正让道德修养落地生根。",
             aPy: "yīn wèi rú jiā xué pài de xiū shēn cóng lái bú  shì xuán kōng kōng dòng de kǒu hào ér shì bì xū zhā gēn yú jù tǐ shí jiàn zēng zǐ tiāo xuǎn de zhè sān gè hé xīn xì jié jīng zhǔn fù gài le rén jì jiāo wǎng de sān gè zhòng dà wéi dù zhōng chǔ lǐ de shì tì rén bàn shì de zé rèn xìn chǔ lǐ de shì yǔ péng you jiāo wǎng de chéng shí xìn yòng xí chǔ lǐ de shì gè tǐ duì lǎo shī xué yè zhī shi de wēn xí chuán chéng tōng guò jiāng hóng dà de dào dé píng jià chāi jiě wéi měi tiān dōu néng qīng diǎn hé duì de jù tǐ xíng wéi cái néng fáng zhǐ zì wǒ qī piàn zhēn zhèng ràng dào dé xiū yǎng luò dì shēng gēn",
             aEn: "Confucian self-cultivation eschews abstract sloganeering, demanding anchored operational behavioral metrics instead. Zengzi's matrix maps three existential fields: relational duty (忠), civic contracts (信), and cognitive lineage (习). Deconstructing heavy morality into daily checkable tracking protocols blocks defensive denial and forces measurable growth."
         },
         {
             id: "T2",
-            qZh: "品读曾子的三个反省，分析在儒家修身治学体系中，“内省（neisheng）”起到了什么终极作用？",
+            qZh: "品读曾子的三个反省，分析在儒家修身治学体系中，“内省（neixing）”起到了什么终极作用？",
             qPy: "pǐn dú zēng zǐ de sān gè fǎn xǐng fēn xī zài rú jiā xiū shēn zhì xué tǐ xì zhōng nèi xǐng qǐ dào le shén me zhōng jí zuò yòng",
             qEn: "Analyze the tripartite reflection matrix. What is the supreme function of introspection (内省) in self-cultivation?",
             sZh: [
@@ -139,7 +145,7 @@ chapter_2: [
             sPy: [
                 "dì yī bù rú guǒ méi yǒu jiān chí měi tiān fǎn xǐng yī gè rén zài shè huì jiāo wǎng hé xué yè jì chéng zhōng kě néng huì chǎn shēng shén me lǎn duò huò máng mù xū róng de xíng wéi",
                 "dì èr bù zēng zǐ de fǎn xǐng biāo zhǔn jìn xīn hū chéng shí hū wēn xí hū rú hé bāng zhù wǒ men bǎ xū wú piāo miǎo de dào dé yuán zé zài nèi xīn láo láo suǒ dìng",
-                "dì sān bù zhè zhǒng gāo pín cì de zì wǒ jiǎn chá shì rú hé ràng wǒ men bù yī lài wài jiè de zàn měi jiàn lì dú lì qiáng dà qiě tǎn dàng de nèi xīn shì jiè"
+                "dì sān bù zhè zhõng gāo pín cì de zì wǒ jiǎn chá shì rú hé ràng wǒ men bù yī lài wài jiè de zàn měi jiàn lì dú lì qiáng dà qiě tǎn dàng de nèi xīn shì jiè"
             ],
             sEn: "Step 1: If daily reflection stops, what lazy or vain behaviors might leak into a person's social and academic operations?<br>Step 2: Are Master Zeng's 'scan' standards converting abstract morality into internal checkpoints?<br>Step 3: How does this frequency mental audit prevent reliance on outside validation, forging an unshakeable soul?",
             aZh: "“内省”是儒家学派用来实现人格独立与自我修补的终极防线。曾子通过每天对自己的‘忠’、‘信’、‘习’进行地毯式扫描，能够及时捕捉到内心产生的一丁点懒惰或自欺欺人。这种高频次的自我灵魂清点，让我们不需要依赖外界的掌声或点赞来证明自己，而是将道德准则转化为内心坚固的底气，从而达到宠辱不惊、人格完善的崇高境界。",
@@ -158,55 +164,16 @@ chapter_2: [
             ],
             sPy: [
                 "dì yī bù dì yī zhāng de xí hé běn zhāng de xí zài zì miàn běn yì shàng dōu bāo hán zhe wēn xí fù xí hé shén me zhòng yào de shí jì xíng dòng",
-                "dì èr bù chuán bù xí hū zuò wéi zēng zǐ měi tiān fǎn xǐng de zuì hòu yī guān shuō míng guāng tīng lǎo shī jiǎng kè bú zuò kè hòu xiāo huà shí jiàn xué wèn néng biàn chéng zì jǐ de ma",
+                "dì èr bù chuán bù xí hū zuò wéi zēng zǐ měi tiān fǎn xǐng de zuì hòu yī guān shuō míng guāng tīng lǎo shī jiǎng kè bú zuò kè hòu xiāo huà shí jiàn xué wèn niáng biàn chéng zì jǐ de ma",
                 "dì sān bù liǎng zhāng dōu fǎn fù sǐ kē zhè gè xí zì shuō míng lùn yǔ zài zhì xué yài dù shàng fēi cháng fǎn duì zěn yàng de kōng tán hé sǐ jì yìng bèi"
             ],
             sEn: "Step 1: What core action do both definitions of '习' incorporate beyond pure cerebral study?<br>Step 2: Serving as the final checkpoint, what does '习' imply about simply listening to teachers without manual application?<br>Step 3: What kind of rote memorization or empty talk does this continuous stress on '习' explicitly reject?",
             aZh: "两章的“习”字一脉相承，其核心含义都是指“将学到的理论知识投入到实际生活中去温习、演练与实践”。第一章强调的是通过‘学而时习’获得内心的喜悦，而第二章则是将‘传不习乎’作为每天雷打不动的道德防线。曾子把它放在反省的最后一关，深刻说明了学习绝对不是坐在书斋里应付考试、死记硬背，如果不经过亲自动手实践与反复消化，老师传授的学业就永远只是一堆无用的废纸。",
             aPy: "liǎng zhāng de xí zì yí mài xiāng chéng qí hé xīn hán yì dōu zhǐ jiāng xué dào de lǐ lùn zhī shi tóu rù dào shí jì shēng huó qù wēn xí yǎn liàn yǔ shí jiàn dì yī zhāng qiáng diào de  shì tōng guò xué ér shí xí huò dé nèi xīn de xǐ yuè ér dì èr zhāng zé shì jiāng chuán bù xí hū zuò wéi měi tiān léi dǎ bú dòng de dào dé fáng xiàn zēng zǐ bǎ tā fàng zài fǎn xǐng de zuì hòu yī guān shēn kè shuō míng le xué xí jué duì bú  shì zuò zài shū zhāi lǐ yìng fù kǎo shì sǐ jì yìng bèi rú guǒ bú jīng guò qīn zì dòng shǒu shí jiàn yǔ fǎn fù xiāo huà lǎo shī chuán shòu de xué yè jiù yǒng yuǎn zhǐ  shì yī duī wú yòng de fèi zhǐ",
             enExplanation: "The character '习' across both sections functions synchronously. It moves study away from passive cognitive tracking into active real-world operations. Introspection tests whether shared information has successfully been implemented into daily custom."
-        },
-        {
-            id: "T4",
-            qZh: "曾子所说的“为人谋而不忠乎”和“与朋友交而不信乎”，这两者之间存在怎样的深层逻辑联系？",
-            qPy: "zēng zǐ suǒ shuō de wèi rén móu ér bù zhòng hū hé yǔ péng you jiāo ér bù xìn hū zhè liǎng zhě zhī jiān cún zài zěn yàng de shēn céng luó ji lián xì",
-            qEn: "What is the underlying logical thread connecting 'loyalty in tasks' (忠) and 'trust in peer circles' (信)?",
-            sZh: [
-                "1. 第一步：‘为人谋’处理的是大范围的社会公共托付，而‘与朋友交’处理的是个体之间的什么情感契约？",
-                "2. 第二步：一个人如果对普通人交代的任务都能尽心竭力（忠），那么他在跟亲近的朋友相处时，有可能说谎、不讲信用吗？",
-                "3. 第三步：将‘忠’与‘信’紧密绑在一起，说明儒家在衡量一个人的整体道德品质时，采用的是高度统一的闭环。",
-            ],
-            sPy: [
-                "dì yī bù wèi rén móu chǔ lǐ de shì dà fàn wéi de shè huì gōng gòng tuō fù ér yǔ péng you jiāo chǔ lǐ de shì gè tǐ zhī jiān de shén me qíng gǎn qì yuē",
-                "dì èr bù yī gè rén rú guǒ duì pǔ tōng rén jiāo dài de rèn wu dōu néng jìn xīn jié lì zhōng nà me tā zài gēn qīn jìn de péng you xiāng chǔ shí yǒu kě néng shuō huǎng bù jiǎng xìn yòng ma",
-                "dì sān bù jiāng zhōng yǔ xìn jǐn mǐ bǎng zài yī qǐ shuō míng rú jiā zài héng liáng yī gè rén de zhěng tǐ dào dé pǐn zhì shí cǎi yòng de shì gāo dù tǒng yī de bì huán"
-            ],
-            sEn: "Step 1: Public responsibility maps to society (忠), while relational trust maps to close peers (信). What is the crossover?<br>Step 2: If a person devotes full energy to absolute strangers, will they easily break contracts with intimate friends?<br>Step 3: What does binding '忠' and '信' together reveal about the wholeness of moral character in Confucian theory?",
-            aZh: "这两者构成了儒家评价社会交往的完整双轨系统。“为人谋”针对的是广义上的公共社会责任，要求我们在替普通人或者长官办事时做到“尽心竭力（忠）”；而“与朋友交”针对的则是狭义上的私人社交契约，要求我们在与志同道合的同辈相处时做到“诚实守信（信）”。‘忠’是‘信’的底气与延伸，‘信’是‘忠’在亲密关系中的体现。两者一公一私、一外一内，共同锁定了君子行走社会、立足于天地之间的核心信用闭环。",
-            aPy: "zhè liǎng zhě gòu chéng le rú jiā píng jià shè huì jiāo wǎng de wán zhěng shuāng guǐ xì tǒng wèi rén móu zhēn duì de guǎng yì shàng de gōng gòng shè huì zé rèn yāo qiú wǒ men zài tì pǔ tōng rén huò zhě zhǎng guān bàn shì shí zuò dào jìn xīn jié lì zhōng ér yǔ péng you jiāo zhēn duì de zé shì xiá yì shàng de sī rén shè jiāo qì yuē yāo qiú wǒ men zài yǔ zhì tóng dào hé de tóng bèi xiāng chǔ shí zuò dào chéng shí shǒu xìn xìn zhōng shì xìn de dǐ qì yǔ yán shēn xìn shì zhōng zài qīn mì guān xi zhōng de tǐ xiàn liǎng zhě yī gōng yī sī yī wài yī nèi gòng tóng suǒ dìng le jūn zǐ xíng zhǎng shè huì lì zú yú tiān dì zhī jiān de hé xīn xìn yòng bì huán",
-            enExplanation: "They represent dual axes of relational calibration. '忠' anchors generic public deployment and accountability to superiors; '信' measures the integrity of personal communication with voluntary peers. Together, they eliminate moral hypocrisy across public and private walls."
-        },
-        {
-            id: "T5",
-            qZh: "对比第一章和第二章，分析《论语·十二章》为什么要把这两章并列放在整部经典的最开头？",
-            qPy: "duì bǐ dì yī zhāng hé dì èr zhāng fēn xī lùn yǔ shí èr zhāng wèi shén me yào bǎ zhè liǎng zhāng bìng liè fàng zài zhěng bù jīng diǎn de zuì kāi tóu",
-            qEn: "Comparing Chapter 1 and Chapter 2, why are these sections chosen to open the entire classical textbook?",
-            sZh: [
-                "1. 第一步：第一章核心在讲‘学、朋、君子’的高级快乐，第二章核心在讲通过‘日三省’克制自满，两章在基调上一放一收，形成了什么互补？",
-                "2. 第二步：这两章共同明确提出了儒家修身大项目里的三大硬核要素：学习（习）、交友（朋/信）与自我约束（不愠/内省），这对于初学文言文的学生来说起到了什么总领作用？",
-                "3. 第三步：在同一个网页关卡内连续体验这两章的同步换底切换，对于建立全局的古文世界观有什么价值？"
-            ],
-            sPy: [
-                "dì yī bù dì yī zhāng hé xīn zài jiǎng xué péng jūn zǐ de gāo jí xǐ yuè dì èr zhāng hé xīn zài jiǎng tōng guò rì sān xǐng kè zhì zì mǎn liǎng zhāng zài jī diào shàng yí fàng yì shōu xíng chéng le shén me hù bǔ",
-                "dì èr bù zhè liǎng zhāng gòng tóng míng què tí chū le rú jiā xiū shēn dà xiàng mù lǐ de sān dà yìng hé yào sù xué xí xí jiāo yǒu péng xìn yǔ zì wǒ yuē shù bú yùn nèi xǐng zhè duì yú chū xué wén yán wén de xué shēng lái shuō qǐ dào le shén me zǒng lǐng zuò yòng",
-                "dì sān bù zài tóng yí gè wǎng yè guān kǎ nèi lián xù tǐ yàn zhè liǎng zhāng de tóng bù huàn dǐ qiē huàn duì yú jiàn lì quán jú de gǔ wén shì jiè guān yǒu shén me jià zhí"
-            ],
-            sEn: "Step 1: Chapter 1 balances private satisfaction, while Chapter 2 restricts vanity with systematic checks. How do these alternate dynamic loads?<br>Step 2: What total thematic blueprint do these elements map out for students embarking on classical prose?<br>Step 3: What value does processing these two matching structures on a single dynamic page add to deep textual tracking?",
-            aZh: "因为这两章并列构成了儒家人生哲学的“总纲领与核心框架”。第一章以开放、喜悦的姿态拉开大幕，鼓励我们积极投入学习、结交同道、坦荡面对误解（说、乐、不愠）；而第二章则迅速收紧心神，用严苛的‘日三省’提供了一套可以随时清点、核对的具体执行路线（忠、信、习）。一放一收，一阳一阴，两章交织互补，完美奠定了全篇关于学问认知、社会人伦与内心防御的最高行动指南，因此具有至高无上的开篇艺术价值。",
-            aPy: "yīn wèi zhè liǎng zhāng bìng liè gòu chéng le rú jiā rén shēng zhé xué de zǒng gāng lǐng yǔ hé xīn kuàng jià dì yī zhāng yǐ kāi fàng xǐ yuè de zī tài lā kāi dà mù gǔ lì wǒ men jī jí tóu rù xué xí jié jiāo tóng dào tǎn dàng miàn duì wù jiě yuè lè bú yùn ér dì èr zhāng zé xùn sù shōu jǐn xīn shén yòng yán kē de rì sān xǐng tí chū le yí tào kě yǐ suí shí qīng diǎn hé duì de jù tǐ xíng wéi zhí háng lù xiàn zhōng xìn xí yí fàng yì shōu yí yáng yí yīn liǎng zhāng jiāo zhī hù bǔ wán měi diàn dìng le quán piān guān yú xué wèn rèn zhī shè huì rén lún yǔ nèi xīn fáng yù de zuì gāo xíng dòng zhǐ nán yīn cǐ jù yǒu zhì gāo yǐng shàng de kāi piān yì shù jià zhí",
-            enExplanation: "Because consolidated together, they chart the definitive behavioral matrix of early Confucian development. Chapter 1 establishes an expansive reward architecture (delight, group celebration); Chapter 2 grounds that aspiration with internal audit controls. Together, they function as the ultimate ideological gatekeeper for text analysis."
         }
     ]
-};
+}; // 🎯 核心修复点 3：在这里关闭整个大对象！一个括号都不能少！
 
-console.log("成功装配：lunyv_quiz 5题纯净对齐版题库包");
+// 🎯 核心修复点 4：日志修正为简答题包标签，绝不张冠李戴
+console.log("成功装配：lunyv_shortq 5题纯净对齐版简答题包");
