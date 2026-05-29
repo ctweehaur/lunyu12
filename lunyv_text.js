@@ -48,7 +48,50 @@ const poemData = {
         { text: "（", punc: true },
         { text: "《学而》", py: "xué ér", zh: "本章出自《论语》第一篇《学而篇》。", en: "From the chapter Xue Er" },
         { text: "）", punc: true }
-    ]
-};
+    ],
+    chapter_2: [
+        // 曾子曰：“吾日三省吾身：
+        { text: "曾子", py: "zēng zǐ", zh: "孔子的弟子，名参，字子舆。被后世尊称为‘宗圣’。", en: "Zengzi / Master Zeng" },
+        { text: "曰", py: "yuē", zh: "说。", en: "said" },
+        { text: "：", punc: true },
+        { text: "“", punc: true },
+        { text: "吾", py: "wú", zh: "代词，我。", en: "I / myself" },
+        { text: "日", py: "rì", zh: "名词作状语，每日、每天。", en: "daily / every day", exam: true },
+        { text: "三", py: "sān", zh: "数词表示虚指，多次、多次反省。古代常以‘三’‘九’表示多。", en: "multiple times / thrice" },
+        { text: "省", py: "xǐng", zh: "动词，检查、反省、考察自己的言行。", en: "to examine / reflect on", exam: true },
+        { text: "吾身", py: "wú shēn", zh: "我自己、自身。", en: "myself / my own conduct" },
+        { text: "：", punc: true },
 
-console.log("成功更新：lunyv_text 第一章纯净干练版词解数据");
+        // 为人谋而不忠乎？
+        { text: "为", py: "wèi", zh: "介词，替、帮。", en: "for / on behalf of" },
+        { text: "人", py: "rén", zh: "别人、人家。", en: "others" },
+        { text: "谋", py: "móu", zh: "动词，谋划、筹办事情。这里指替别人办事。", en: "to plan / transact business" },
+        { text: "而", py: "ér", zh: "连词，表转折，相当于‘却’、‘可是’。", en: "yet / but" },
+        { text: "不", py: "bù", zh: "副词，没有。", en: "not" },
+        { text: "忠", py: "zhōng", zh: "尽心竭力。这里指对人尽心尽力。", en: "loyal / devoted / doing one's utmost", exam: true },
+        { text: "乎", py: "hū", zh: "语气助词，表反问，相当于‘吗’。", en: "isn't it?" },
+        { text: "？", punc: true },
+
+        // 与朋友交而不信乎？
+        { text: "与", py: "yǔ", zh: "介词，同、跟。", en: "with" },
+        { text: "朋友", py: "péng you", zh: "朋友。同师为朋，同志为友。", en: "friends" },
+        { text: "交", py: "jiāo", zh: "动词，交往、结交。", en: "to associate / interact" },
+        { text: "而", py: "ér", zh: "连词，表转折。", en: "yet / but" },
+        { text: "不", py: "bú", zh: "副词，没有。", en: "not" },
+        { text: "信", py: "xìn", zh: "诚信、诚实。这里指真诚诚实，说话算数。", en: "trustworthy / faithful / sincere", exam: true },
+        { text: "乎", py: "hū", zh: "语气助词。", en: "isn't it?" },
+        { text: "？", punc: true },
+
+        // 传不习乎？”（《学而》）
+        { text: "传", py: "chuán", zh: "动词用作名词，老师传授的知识、学业。", en: "what has been passed down / teachings", exam: true },
+        { text: "不", py: "bù", zh: "副词，没有。", en: "not" },
+        { text: "习", py: "xí", zh: "温习、复习、实践练习。", en: "to review / practice" },
+        { text: "乎", py: "hū", zh: "语气助词。", en: "isn't it?" },
+        { text: "”", punc: true },
+        { text: "（", punc: true },
+        { text: "《学而》", py: "xué ér", zh: "本章同样出自《论语》第一篇《学而篇》。", en: "From the chapter Xue Er" },
+        { text: "）", punc: true }
+    ] // 第二章的数组结束
+}; // 🎯 整个大对象的关闭括号（对应你截图第 52 行的右大括号）
+
+console.log("成功更新：lunyv_text 第一和第二章纯净词解数据");
